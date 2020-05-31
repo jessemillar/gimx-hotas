@@ -1,5 +1,7 @@
 # GIMX HOTAS
 
+[![Man Hours](https://img.shields.io/endpoint?url=https%3A%2F%2Fmh.jessemillar.com%2Fhours%3Frepo%3Dhttps%3A%2F%2Fgithub.com%2Fjessemillar%2Fgimx-hotas.git)](https://jessemillar.com/r/man-hours)
+
 I want to play [Elite Dangerous](https://www.elitedangerous.com/) on my PS4 with a [HOTAS controller](https://en.wikipedia.org/wiki/HOTAS). [The](https://www.thrustmaster.com/en_US/products/tflight-hotas-4) [two](https://www.amazon.com/Combat-Hotas-Flight-Stick-PlayStation-4/dp/B01A0P8NBC) PS4 HOTAS that are available on the market are garbage based on their reviews. I would like to instead use something like the [Logitech G X56 RGB](https://camelcamelcamel.com/product/B079P6SSHP) which mandates a translation layer between the controls and the PS4. That translation layer is provided by [GIMX](https://blog.gimx.fr/) running on a Raspberry Pi.
 
 ## Connection Options
