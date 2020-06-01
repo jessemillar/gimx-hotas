@@ -138,6 +138,22 @@
           <device type="mouse" id="0" name=""/>
           <event type="axis" id="y" dead_zone="10" multiplier="5" exponent="1" shape="Circle"/>
         </axis>
+        <axis id="rel_axis_4+" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="EQUALS"/>
+        </axis>
+        <axis id="rel_axis_4-" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="MINUS"/>
+        </axis>
+        <axis id="rel_axis_5+" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="0"/>
+        </axis>
+        <axis id="rel_axis_5-" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="9"/>
+        </axis>
       </axis_map>
       <joystick_corrections_list/>
     </configuration>
