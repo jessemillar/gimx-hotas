@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 	"runtime"
+	"strings"
 	"time"
 
 	"github.com/Microsoft/cognitive-services-speech-sdk-go/audio"
@@ -12,17 +13,22 @@ import (
 	"github.com/micmonay/keybd_event"
 )
 
-var keyboard keybd_event.KeyBonding
-
-func recognizingHandler(event speech.SpeechRecognitionEventArgs) {
-	defer event.Close()
-	fmt.Println("Recognizing:", event.Result.Text)
+var keywordConfig = map[string]int{
+	"launch":        keybd_event.VK_J,
+	"test controls": keybd_event.VK_0,
 }
+
+var keyboard keybd_event.KeyBonding
 
 func recognizedHandler(event speech.SpeechRecognitionEventArgs) {
 	defer event.Close()
 	fmt.Println("Recognized:", event.Result.Text)
-	// TODO Check that the result included a specific bit of text
+	for k, v := range keywordConfig {
+		if strings.Contains(strings.ToLower(event.Result.Text), k) {
+			fmt.Println("Executing:", k)
+			pressKey(v)
+		}
+	}
 }
 
 func cancelledHandler(event speech.SpeechRecognitionCanceledEventArgs) {
@@ -79,7 +85,6 @@ func main() {
 	}
 	defer speechRecognizer.Close()
 	fmt.Println("Listening for commands...")
-	speechRecognizer.Recognizing(recognizingHandler)
 	speechRecognizer.Recognized(recognizedHandler)
 	speechRecognizer.Canceled(cancelledHandler)
 	speechRecognizer.StartContinuousRecognitionAsync()
