@@ -1,2 +1,4 @@
 github.com/Microsoft/cognitive-services-speech-sdk-go v1.11.0 h1:sr2x6ky+aRx9gG6HA+DWy24fiEZ1ueeyzyycIlSrUKo=
 github.com/Microsoft/cognitive-services-speech-sdk-go v1.11.0/go.mod h1:ct4bG95K1Lu/c5y60PVGI1XOjo9aAcl80DD5dvu6zsg=
+github.com/micmonay/keybd_event v1.1.0 h1:fQzkqiG/Siwji1Ju9NDkIb8FSFFlPU76YbJntrXdtQw=
+github.com/micmonay/keybd_event v1.1.0/go.mod h1:QS2Kfz0PbPezFqMPEot+l/cK78/tHLZtZ7AbYUCRKsQ=
