@@ -10,15 +10,19 @@
       <button_map>
         <button id="abs_axis_0" label="Share Button">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F1"/>
+          <event type="button" id="BACKSLASH"/>
         </button>
         <button id="abs_axis_1" label="Options Button">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F2"/>
+          <event type="button" id="RSHIFT"/>
         </button>
         <button id="abs_axis_2" label="PS Button">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F3"/>
+          <event type="button" id="RETURN"/>
+        </button>
+        <button id="abs_axis_2" label="PS Button">
+          <device type="joystick" id="0" name="USB Gamepad "/>
+          <event type="button" id="100"/>
         </button>
         <button id="abs_axis_3" label="Up">
           <device type="keyboard" id="0" name=""/>
@@ -62,11 +66,11 @@
         </button>
         <button id="abs_axis_13" label="Primary fire">
           <device type="mouse" id="0" name=""/>
-          <event type="button" id="BUTTON_LEFT"/>
+          <event type="button" id="BUTTON_RIGHT"/>
         </button>
         <button id="abs_axis_14" label="Secondary fire">
           <device type="mouse" id="0" name=""/>
-          <event type="button" id="BUTTON_RIGHT"/>
+          <event type="button" id="BUTTON_LEFT"/>
         </button>
         <button id="abs_axis_15" label="Interact with portal">
           <device type="keyboard" id="0" name=""/>
