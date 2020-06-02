@@ -6,73 +6,73 @@
       <mouse_options_list/>
       <intensity_list/>
       <button_map>
-        <button id="abs_axis_14" label="">
+        <button id="abs_axis_14" label="r2">
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
           <event type="button" id="13"/>
         </button>
-        <button id="abs_axis_3" label="">
+        <button id="abs_axis_3" label="up">
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
           <event type="button" id="80"/>
         </button>
-        <button id="abs_axis_5" label="">
+        <button id="abs_axis_5" label="down">
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
           <event type="button" id="82"/>
         </button>
-        <button id="abs_axis_6" label="">
+        <button id="abs_axis_6" label="left">
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
           <event type="button" id="83"/>
         </button>
-        <button id="abs_axis_4" label="">
+        <button id="abs_axis_4" label="right">
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
           <event type="button" id="81"/>
         </button>
-        <button id="abs_axis_15" label="">
+        <button id="abs_axis_15" label="l3">
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
           <event type="button" id="29"/>
         </button>
-        <button id="abs_axis_13" label="">
+        <button id="abs_axis_13" label="l2">
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
           <event type="button" id="19"/>
         </button>
-        <button id="abs_axis_7" label="">
+        <button id="abs_axis_7" label="triangle">
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
           <event type="button" id="2"/>
         </button>
-        <button id="abs_axis_9" label="">
+        <button id="abs_axis_9" label="cross">
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
           <event type="button" id="0"/>
         </button>
-        <button id="abs_axis_8" label="">
+        <button id="abs_axis_8" label="circle">
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
           <event type="button" id="1"/>
         </button>
-        <button id="abs_axis_2" label="">
+        <button id="abs_axis_2" label="PS">
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
           <event type="button" id="11"/>
         </button>
-        <button id="abs_axis_1" label="">
+        <button id="abs_axis_1" label="options">
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
           <event type="button" id="12"/>
         </button>
-        <button id="abs_axis_10" label="">
+        <button id="abs_axis_10" label="square">
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
           <event type="button" id="4"/>
         </button>
       </button_map>
       <axis_map>
-        <axis id="rel_axis_1" label="">
+        <axis id="rel_axis_1" label="lstick y">
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
           <event type="axis" id="1" dead_zone="0" multiplier="0.0039" exponent="1.00" shape=""/>
         </axis>
-        <axis id="rel_axis_0" label="">
+        <axis id="rel_axis_0" label="lstick x">
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
           <event type="axis" id="0" dead_zone="0" multiplier="0.0039" exponent="1.00" shape=""/>
         </axis>
-        <axis id="rel_axis_2" label="">
+        <axis id="rel_axis_2" label="rstick x">
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
           <event type="axis" id="3" dead_zone="0" multiplier="0.0039" exponent="1.00" shape=""/>
         </axis>
-        <axis id="rel_axis_3" label="">
+        <axis id="rel_axis_3" label="rstick y">
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
           <event type="axis" id="2" dead_zone="0" multiplier="0.0039" exponent="1.00" shape=""/>
         </axis>
