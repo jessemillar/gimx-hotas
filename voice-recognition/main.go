@@ -17,6 +17,8 @@ var keywordConfig = map[string]int{
 	"launch elite dangerous": keybd_event.VK_Z,
 	"landing gear":           keybd_event.VK_X,
 	"docking permissions":    keybd_event.VK_C,
+	"warp drive":             keybd_event.VK_V,
+	"take us up":             keybd_event.VK_B,
 }
 
 var keyboard keybd_event.KeyBonding
