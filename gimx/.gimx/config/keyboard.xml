@@ -10,19 +10,11 @@
       <button_map>
         <button id="abs_axis_0" label="Share Button">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="BACKSLASH"/>
-        </button>
-        <button id="abs_axis_1" label="Options Button">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="RSHIFT"/>
+          <event type="button" id="BACKQUOTE"/>
         </button>
         <button id="abs_axis_2" label="PS Button">
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="RETURN"/>
-        </button>
-        <button id="abs_axis_2" label="PS Button">
-          <device type="joystick" id="0" name="USB Gamepad "/>
-          <event type="button" id="100"/>
         </button>
         <button id="abs_axis_3" label="Up">
           <device type="keyboard" id="0" name=""/>
@@ -40,25 +32,21 @@
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="LEFT"/>
         </button>
-        <button id="abs_axis_7" label="Ability 3">
+        <button id="abs_axis_7" label="">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="q"/>
-        </button>
-        <button id="abs_axis_8" label="Crouch">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="LCTRL"/>
+          <event type="button" id="i"/>
         </button>
         <button id="abs_axis_9" label="Jump">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="SPACE"/>
+          <event type="button" id="k"/>
         </button>
         <button id="abs_axis_10" label="Reload">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="r"/>
+          <event type="button" id="j"/>
         </button>
         <button id="abs_axis_11" label="Ability 1">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="LSHIFT"/>
+          <event type="button" id="q"/>
         </button>
         <button id="abs_axis_12" label="Ability 2">
           <device type="keyboard" id="0" name=""/>
@@ -74,36 +62,16 @@
         </button>
         <button id="abs_axis_15" label="Interact with portal">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="f"/>
+          <event type="button" id="u"/>
         </button>
         <button id="abs_axis_16" label="Quick melee">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="v"/>
-        </button>
-        <button id="abs_axis_17" label="Scoreboard">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="TAB"/>
-        </button>
-        <button id="abs_axis_4" label="Next weapon">
-          <device type="mouse" id="0" name=""/>
-          <event type="button" id="BUTTON_WHEELUP"/>
-        </button>
-        <button id="abs_axis_5" label="Communication menu">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="c"/>
-        </button>
-        <button id="abs_axis_3" label="Spray">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="t"/>
+          <event type="button" id="o"/>
         </button>
         <button id="abs_axis_1" label="Options">
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="ESCAPE"/>
         </button>
-        <button id="abs_axis_4" label="Next weapon">
-          <device type="mouse" id="0" name=""/>
-          <event type="button" id="BUTTON_WHEELDOWN"/>
-        </button>
         <button id="abs_axis_18" label="">
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="1"/>
@@ -135,6 +103,10 @@
         <button id="abs_axis_18" label="">
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="4"/>
+        </button>
+        <button id="abs_axis_8" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="l"/>
         </button>
       </button_map>
       <axis_map>
