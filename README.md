@@ -17,6 +17,10 @@ I want to play [Elite Dangerous](https://www.elitedangerous.com/) on my PS4 with
 
 ## Elite Dangerous Commands/Mappings
 
+### References
+
+- https://vignette.wikia.nocookie.net/elite-dangerous/images/9/9a/Elite-Dangerous-X55-HOTAS-%2B-GamePad-3.3-Keybinds.png/revision/latest?cb=20181217151944
+
 ### Needed
 
 > Here's my plan. I'm gonna map these necessary buttons so I can play and then as I play I'll feel out what works, what doesn't, and what would be nice to have.
@@ -38,6 +42,7 @@ I want to play [Elite Dangerous](https://www.elitedangerous.com/) on my PS4 with
 - Request docking permissions
 - Easy UI panel opening (maybe with the D-pad/hat)
 - Night vision
+- Head look
 
 ### Wishlist
 
