@@ -18,6 +18,7 @@ var keywordConfig = map[string]int{
 	"landing gear":           keybd_event.VK_X,
 	"docking permissions":    keybd_event.VK_C,
 	"super cruise":           keybd_event.VK_V,
+	"supercruise":            keybd_event.VK_V,
 	"take us up":             keybd_event.VK_B,
 	"warp drive":             keybd_event.VK_N,
 }
