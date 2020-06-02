@@ -1,1 +1,2 @@
 keyboard.xml/test_macro.txt
+vkb-gladiator-mk-ii.xml/vkb-gladiator-mk-ii.txt

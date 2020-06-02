@@ -1,0 +1,58 @@
+# Start Elite Dangerous from the home menu
+MACRO KEYDOWN z
+KEY RETURN
+DELAY 1000
+KEY d
+DELAY 100
+KEY k
+
+# Toggle landing gear
+MACRO KEYDOWN x
+KEYDOWN l
+DELAY 100
+KEYDOWN DOWN
+DELAY 100
+KEYUP l
+KEYUP DOWN
+
+# Request docking permissions
+MACRO KEYDOWN c
+KEYDOWN j
+DELAY 100
+KEYDOWN LEFT
+DELAY 100
+KEYUP j
+KEYUP LEFT
+DELAY 1000
+KEY e
+DELAY 500
+KEY e
+DELAY 200
+KEY RIGHT
+DELAY 100
+KEY k
+DELAY 100
+KEY l
+
+# Engage supercruise drive
+MACRO KEYDOWN v
+KEYDOWN i
+DELAY 100
+KEYDOWN DOWN
+DELAY 100
+KEYUP i
+KEYUP DOWN
+
+# Lift off landing pad
+MACRO KEYDOWN b
+KEYDOWN s
+DELAY 5000
+KEYUP s
+# Use the landing gear macro to raise the landing gear
+KEY x
+# Engage normal flight controls
+KEY u
+
+# Engage FSD
+MACRO KEYDOWN n
+KEY i

@@ -55,24 +55,35 @@ I want to play [Elite Dangerous](https://www.elitedangerous.com/) on my PS4 with
 
 ### DualShock 4
 
-- R1 = 5
-- R2 = 7
-- L1 = 4
-- L2 = 6
 - Cross = 0
 - Circle = 1
-- Square = 3
 - Triangle = 2
+- Square = 3
+- L1 = 4
+- R1 = 5
+- L2 = 6
+- R2 = 7
+- Share = 8
 - Options = 9
 - PS = 10
-- Share = 8
+- L3 - 11
+- R3 - 12
 
 #### D-pad
 
 - Up = 13
+- Right = 14
 - Down = 15
 - Left = 16
-- Right = 14
+
+#### Virtual Touchpad
+
+> I create fake joystick buttons with GIMX macros to simulate the four quadrants of the DualShock touchpad.
+
+- Northeast - 17
+- Southeast - 18
+- Southwest - 19
+- Northwest - 20
 
 ## VKB Gladiator MK II
 
