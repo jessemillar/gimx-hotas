@@ -66,8 +66,8 @@ I want to play [Elite Dangerous](https://www.elitedangerous.com/) on my PS4 with
 - Share = 8
 - Options = 9
 - PS = 10
-- L3 - 11
-- R3 - 12
+- L3 = 11
+- R3 = 12
 
 #### D-pad
 

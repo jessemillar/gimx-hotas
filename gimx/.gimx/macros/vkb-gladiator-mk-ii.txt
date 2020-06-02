@@ -1,4 +1,4 @@
-# VKB Gladiator MK II button names to numbers
+# VKB Gladiator MK II button names to numbers:
 # Flap A: 0 (closest to throttle)
 # Flap B: 1
 # A1: 2
@@ -12,59 +12,87 @@
 # C3: 10
 # Start: 11
 # Eject: 12
-# Mode: 29
-# Shift Hat Up: 21
-# Shift Hat Down: 22
-# Shift Hat Left: 23
+# Mode:  29
+# Shift Hat Up:    21
+# Shift Hat Down:  22
+# Shift Hat Left:  23
 # Shift Hat Right: 24
 
+# Virtual DualShock button names to numbers:
+# Cross =    0
+# Circle =   1
+# Triangle = 2
+# Square =   3
+# L1 =       4
+# R1 =       5
+# L2 =       6
+# R2 =       7
+# Share =    8
+# Options =  9
+# PS =       10
+# L3 =       11
+# R3 =       12
+# D-pad Up =    13
+# D-pad Right = 14
+# D-pad Down =  15
+# D-pad Left =  16
+
 # C1: Toggle landing gear
-MACRO KEYDOWN 8:
-KEYDOWN l
+MACRO JBUTTONDOWN 8:
+JBUTTONDOWN 1
 DELAY 100
-KEYDOWN DOWN
+JBUTTONDOWN 15
 DELAY 100
-KEYUP l
-KEYUP DOWN
+JBUTTONUP 1
+JBUTTONUP 15
+
+# C1: Toggle cargo scoop
+MACRO JBUTTONDOWN 10:
+JBUTTONDOWN 1
+DELAY 100
+JBUTTONDOWN 13
+DELAY 100
+JBUTTONUP 1
+JBUTTONUP 13
 
 # Request docking permissions
-MACRO KEYDOWN c
-KEYDOWN j
+MACRO JBUTTONDOWN c
+JBUTTONDOWN j
 DELAY 100
-KEYDOWN LEFT
+JBUTTONDOWN LEFT
 DELAY 100
-KEYUP j
-KEYUP LEFT
+JBUTTONUP j
+JBUTTONUP LEFT
 DELAY 1000
-KEY e
+JBUTTON e
 DELAY 500
-KEY e
+JBUTTON e
 DELAY 200
-KEY RIGHT
+JBUTTON RIGHT
 DELAY 100
-KEY k
+JBUTTON k
 DELAY 100
-KEY l
+JBUTTON l
 
 # Engage supercruise drive
-MACRO KEYDOWN v
-KEYDOWN i
+MACRO JBUTTONDOWN v
+JBUTTONDOWN i
 DELAY 100
-KEYDOWN DOWN
+JBUTTONDOWN DOWN
 DELAY 100
-KEYUP i
-KEYUP DOWN
+JBUTTONUP i
+JBUTTONUP DOWN
 
 # Lift off landing pad
-MACRO KEYDOWN b
-KEYDOWN s
+MACRO JBUTTONDOWN b
+JBUTTONDOWN s
 DELAY 5000
-KEYUP s
+JBUTTONUP s
 # Use the landing gear macro to raise the landing gear
-KEY x
+JBUTTON x
 # Engage normal flight controls
-KEY u
+JBUTTON u
 
 # Engage FSD
-MACRO KEYDOWN n
-KEY i
+MACRO JBUTTONDOWN n
+JBUTTON i

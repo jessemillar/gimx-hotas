@@ -150,6 +150,14 @@
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
           <event type="button" id="29"/>
         </button>
+        <button id="abs_axis_2" label="PS">
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
+          <event type="button" id="RETURN"/>
+        </button>
+        <button id="abs_axis_1" label="options">
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="12"/>
+        </button>
       </button_map>
       <axis_map>
         <axis id="rel_axis_1" label="lstick y">
