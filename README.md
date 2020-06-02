@@ -8,19 +8,36 @@ I want to play [Elite Dangerous](https://www.elitedangerous.com/) on my PS4 with
 
 1. USB adapter
 	- https://gimx.fr/wiki/index.php?title=DIY_USB_adapter
-		- https://gimx.fr/wiki/index.php?title=DIY_USB_adapter_for_dummies
-1. Bluetooth
-	- https://gimx.fr/wiki/index.php?title=Guide&platform=ps4&connectiontype=BT&ostype=linux&device=Pad
+	- https://gimx.fr/wiki/index.php?title=DIY_USB_adapter_for_dummies
 
 ## Hardware
 
 1. USB Adapter
 	- https://www.amazon.com/PJRC-LYSB01LZ98KUX-ELECTRNCS-Teensy-with-pins/dp/B01LZ98KUX/ref=sr_1_13?dchild=1&keywords=Teensy+2.0+w%2F+pins&qid=1590504252&sr=8-13
-1. Bluetooth
-	- https://www.amazon.com/Arduino-Micro-Headers-A000053-Controller/dp/B00AFY2S56
 
-## Configurations
+## Button Mappings
 
-> TODO I either need to find a Linux driver for the HOTAS I end up buying or find out how to write my own.
+### DualShock 4
 
-- https://gimx.fr/wiki/index.php?title=Creating_configurations
+- R1 = 5
+- R2 = 7
+- L1 = 4
+- L2 = 6
+- X = 0
+- O = 1
+- Square = 3
+- Triangle = 2
+- Options = 9
+- PS = 10
+- Share = 8
+
+#### D-pad
+
+- Up = 13
+- Down = 15
+- Left = 16
+- Right = 14
+
+## VKB Gladiator MK II
+
+![VKB Gladiator MK II Mapping Diagram](vkb-gladiator-mk-ii-mapping.png)
