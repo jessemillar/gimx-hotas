@@ -84,14 +84,6 @@
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="TAB"/>
         </button>
-        <button id="abs_axis_18" label="">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F5"/>
-        </button>
-        <button id="abs_axis_19" label="">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F6"/>
-        </button>
         <button id="abs_axis_4" label="Next weapon">
           <device type="mouse" id="0" name=""/>
           <event type="button" id="BUTTON_WHEELUP"/>
@@ -111,6 +103,38 @@
         <button id="abs_axis_4" label="Next weapon">
           <device type="mouse" id="0" name=""/>
           <event type="button" id="BUTTON_WHEELDOWN"/>
+        </button>
+        <button id="abs_axis_18" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="1"/>
+        </button>
+        <button id="abs_axis_17" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="1"/>
+        </button>
+        <button id="abs_axis_17" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="2"/>
+        </button>
+        <button id="abs_axis_18" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="2"/>
+        </button>
+        <button id="abs_axis_18" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="3"/>
+        </button>
+        <button id="abs_axis_17" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="3"/>
+        </button>
+        <button id="abs_axis_17" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="4"/>
+        </button>
+        <button id="abs_axis_18" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="4"/>
         </button>
       </button_map>
       <axis_map>
@@ -140,19 +164,27 @@
         </axis>
         <axis id="rel_axis_4+" label="">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="EQUALS"/>
+          <event type="button" id="2"/>
         </axis>
-        <axis id="rel_axis_4-" label="">
+        <axis id="rel_axis_4+" label="">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="MINUS"/>
+          <event type="button" id="1"/>
         </axis>
         <axis id="rel_axis_5+" label="">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="0"/>
+          <event type="button" id="3"/>
         </axis>
-        <axis id="rel_axis_5-" label="">
+        <axis id="rel_axis_4-" label="">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="9"/>
+          <event type="button" id="4"/>
+        </axis>
+        <axis id="rel_axis_5+" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="2"/>
+        </axis>
+        <axis id="rel_axis_4-" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="3"/>
         </axis>
       </axis_map>
       <joystick_corrections_list/>
