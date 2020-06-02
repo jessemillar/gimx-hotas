@@ -29,7 +29,7 @@
 # R2 =          7
 # Share =       8
 # Options =     9
-# PS =          F10
+# PS =          RETURN
 # L3 =          F1
 # R3 =          F2
 # D-pad Up =    F3
