@@ -4,159 +4,211 @@
     <configuration id="1">
       <trigger type="" id="" name="" button_id="" switch_back="no" delay="0"/>
       <mouse_options_list>
-        <mouse name="" id="0" mode="Aiming" buffer_size="1" filter="0.00"/>
+        <mouse name="Microsoft Microsoft® 2.4GHz Transceiver v7.0 Mouse" id="0" mode="Aiming" buffer_size="1" filter="0.00"/>
       </mouse_options_list>
       <intensity_list/>
       <button_map>
         <button id="abs_axis_0" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="BACKQUOTE"/>
         </button>
         <button id="abs_axis_2" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="RETURN"/>
         </button>
         <button id="abs_axis_3" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="UP"/>
         </button>
         <button id="abs_axis_4" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="RIGHT"/>
         </button>
         <button id="abs_axis_5" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="DOWN"/>
         </button>
         <button id="abs_axis_6" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="LEFT"/>
         </button>
         <button id="abs_axis_7" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="i"/>
         </button>
         <button id="abs_axis_9" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="k"/>
         </button>
         <button id="abs_axis_10" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="j"/>
         </button>
         <button id="abs_axis_11" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="q"/>
         </button>
         <button id="abs_axis_12" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="e"/>
         </button>
         <button id="abs_axis_13" label="">
-          <device type="mouse" id="0" name=""/>
+          <device type="mouse" id="0" name="Microsoft Microsoft® 2.4GHz Transceiver v7.0 Mouse"/>
           <event type="button" id="BUTTON_RIGHT"/>
         </button>
         <button id="abs_axis_14" label="">
-          <device type="mouse" id="0" name=""/>
+          <device type="mouse" id="0" name="Microsoft Microsoft® 2.4GHz Transceiver v7.0 Mouse"/>
           <event type="button" id="BUTTON_LEFT"/>
         </button>
         <button id="abs_axis_15" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="u"/>
         </button>
         <button id="abs_axis_16" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="o"/>
         </button>
         <button id="abs_axis_1" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="ESCAPE"/>
         </button>
         <button id="abs_axis_18" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="1"/>
         </button>
         <button id="abs_axis_17" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="1"/>
         </button>
         <button id="abs_axis_17" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="2"/>
         </button>
         <button id="abs_axis_18" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="2"/>
         </button>
         <button id="abs_axis_18" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="3"/>
         </button>
         <button id="abs_axis_17" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="3"/>
         </button>
         <button id="abs_axis_17" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="4"/>
         </button>
         <button id="abs_axis_18" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="4"/>
         </button>
         <button id="abs_axis_8" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="l"/>
+        </button>
+        <button id="abs_axis_3" label="">
+          <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
+          <event type="button" id="13"/>
+        </button>
+        <button id="abs_axis_5" label="">
+          <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
+          <event type="button" id="15"/>
+        </button>
+        <button id="abs_axis_4" label="">
+          <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
+          <event type="button" id="14"/>
+        </button>
+        <button id="abs_axis_6" label="">
+          <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
+          <event type="button" id="16"/>
+        </button>
+        <button id="abs_axis_9" label="">
+          <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
+          <event type="button" id="0"/>
+        </button>
+        <button id="abs_axis_8" label="">
+          <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
+          <event type="button" id="1"/>
+        </button>
+        <button id="abs_axis_7" label="">
+          <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
+          <event type="button" id="2"/>
+        </button>
+        <button id="abs_axis_10" label="">
+          <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
+          <event type="button" id="3"/>
+        </button>
+        <button id="abs_axis_2" label="">
+          <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
+          <event type="button" id="10"/>
         </button>
       </button_map>
       <axis_map>
         <axis id="rel_axis_0-" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="a"/>
         </axis>
         <axis id="rel_axis_0+" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="d"/>
         </axis>
         <axis id="rel_axis_1-" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="w"/>
         </axis>
         <axis id="rel_axis_1+" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="s"/>
         </axis>
         <axis id="rel_axis_2" label="">
-          <device type="mouse" id="0" name=""/>
+          <device type="mouse" id="0" name="Microsoft Microsoft® 2.4GHz Transceiver v7.0 Mouse"/>
           <event type="axis" id="x" dead_zone="10" multiplier="5" exponent="1" shape="Circle"/>
         </axis>
         <axis id="rel_axis_3" label="">
-          <device type="mouse" id="0" name=""/>
+          <device type="mouse" id="0" name="Microsoft Microsoft® 2.4GHz Transceiver v7.0 Mouse"/>
           <event type="axis" id="y" dead_zone="10" multiplier="5" exponent="1" shape="Circle"/>
         </axis>
         <axis id="rel_axis_4+" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="2"/>
         </axis>
         <axis id="rel_axis_4+" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="1"/>
         </axis>
         <axis id="rel_axis_5+" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="3"/>
         </axis>
         <axis id="rel_axis_4-" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="4"/>
         </axis>
         <axis id="rel_axis_5+" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="2"/>
         </axis>
         <axis id="rel_axis_4-" label="">
-          <device type="keyboard" id="0" name=""/>
+          <device type="keyboard" id="0" name="Apple Inc. Magic Keyboard"/>
           <event type="button" id="3"/>
+        </axis>
+        <axis id="rel_axis_1" label="">
+          <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
+          <event type="axis" id="1" dead_zone="0" multiplier="0.0039" exponent="1.00" shape=""/>
+        </axis>
+        <axis id="rel_axis_0" label="">
+          <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
+          <event type="axis" id="0" dead_zone="0" multiplier="0.0039" exponent="1.00" shape=""/>
+        </axis>
+        <axis id="rel_axis_2" label="">
+          <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
+          <event type="axis" id="3" dead_zone="0" multiplier="0.0039" exponent="1.00" shape=""/>
+        </axis>
+        <axis id="rel_axis_3" label="">
+          <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
+          <event type="axis" id="4" dead_zone="0" multiplier="0.0039" exponent="1.00" shape=""/>
         </axis>
       </axis_map>
       <joystick_corrections_list/>

@@ -14,8 +14,9 @@ import (
 )
 
 var keywordConfig = map[string]int{
-	"launch":        keybd_event.VK_J,
-	"test controls": keybd_event.VK_0,
+	"launch elite dangerous": keybd_event.VK_Z,
+	"landing gear":           keybd_event.VK_X,
+	"docking permissions":    keybd_event.VK_C,
 }
 
 var keyboard keybd_event.KeyBonding
