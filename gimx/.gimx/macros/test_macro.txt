@@ -34,7 +34,7 @@ KEY k
 DELAY 100
 KEY l
 
-# Engage FSD drive
+# Engage supercruise drive
 MACRO KEYDOWN v
 KEYDOWN i
 DELAY 100
@@ -46,9 +46,13 @@ KEYUP DOWN
 # Lift off landing pad
 MACRO KEYDOWN b
 KEYDOWN s
-DELAY 2000
+DELAY 5000
 KEYUP s
 # Use the landing gear macro to raise the landing gear
 KEY x
 # Engage normal flight controls
 KEY u
+
+# Engage FSD
+MACRO KEYDOWN n
+KEY i
