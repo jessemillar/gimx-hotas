@@ -15,6 +15,37 @@ I want to play [Elite Dangerous](https://www.elitedangerous.com/) on my PS4 with
 1. USB Adapter
 	- https://www.amazon.com/PJRC-LYSB01LZ98KUX-ELECTRNCS-Teensy-with-pins/dp/B01LZ98KUX/ref=sr_1_13?dchild=1&keywords=Teensy+2.0+w%2F+pins&qid=1590504252&sr=8-13
 
+## Elite Dangerous Commands/Mappings
+
+### Needed
+
+> Here's my plan. I'm gonna map these necessary buttons so I can play and then as I play I'll feel out what works, what doesn't, and what would be nice to have.
+
+- Deploy hardpoints
+- Toggle cargo scoop
+- Toggle landing gear
+- Toggle alternate flight controls
+- Menu navigation (D-pad, R1, L1, Cross, and Circle at a minimum; probably need Triangle and Square too)
+- Open pause menu
+- PS button
+- Supercruise
+- FSD drive
+- Reverse thruster
+- Target
+
+### Wanted
+
+- Request docking permissions
+- Easy UI panel opening (maybe with the D-pad/hat)
+- Night vision
+
+### Wishlist
+
+- Toggle flight assist
+- Launch chaff
+- Launch heat sink
+- Launch limpets
+
 ## Button Mappings
 
 ### DualShock 4
@@ -23,8 +54,8 @@ I want to play [Elite Dangerous](https://www.elitedangerous.com/) on my PS4 with
 - R2 = 7
 - L1 = 4
 - L2 = 6
-- X = 0
-- O = 1
+- Cross = 0
+- Circle = 1
 - Square = 3
 - Triangle = 2
 - Options = 9
