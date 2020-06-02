@@ -18,42 +18,46 @@
 # Shift Hat Left:  23
 # Shift Hat Right: 24
 
-# Virtual DualShock button names to numbers:
-# Cross =    0
-# Circle =   1
-# Triangle = 2
-# Square =   3
-# L1 =       4
-# R1 =       5
-# L2 =       6
-# R2 =       7
-# Share =    8
-# Options =  9
-# PS =       10
-# L3 =       11
-# R3 =       12
-# D-pad Up =    13
-# D-pad Right = 14
-# D-pad Down =  15
-# D-pad Left =  16
+# Virtual DualShock button names to keyboard keys:
+# Cross =       0
+# Circle =      1
+# Triangle =    2
+# Square =      3
+# L1 =          4
+# R1 =          5
+# L2 =          6
+# R2 =          7
+# Share =       8
+# Options =     9
+# PS =          F10
+# L3 =          F1
+# R3 =          F2
+# D-pad Up =    F3
+# D-pad Right = F4
+# D-pad Down =  F5
+# D-pad Left =  F6
+# Northeast =   F7
+# Southeast =   F8
+# Southwest =   F9
+# Northwest =   F10
 
 # C1: Toggle landing gear
 MACRO JBUTTONDOWN 8:
-JBUTTONDOWN 1
+KEYDOWN 1
 DELAY 100
-JBUTTONDOWN 15
+KEYDOWN F5
 DELAY 100
-JBUTTONUP 1
-JBUTTONUP 15
+KEYUP 1
+KEYUP F5
 
 # C1: Toggle cargo scoop
 MACRO JBUTTONDOWN 10:
-JBUTTONDOWN 1
+KEYDOWN 1
 DELAY 100
-JBUTTONDOWN 13
+KEYDOWN F3
 DELAY 100
-JBUTTONUP 1
-JBUTTONUP 13
+KEYUP 1
+KEYUP F3
 
 # Request docking permissions
 MACRO JBUTTONDOWN c
