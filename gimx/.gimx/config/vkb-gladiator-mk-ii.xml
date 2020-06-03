@@ -7,96 +7,100 @@
       <intensity_list/>
       <button_map>
         <button id="abs_axis_3" label="up">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F3"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="113"/>
         </button>
         <button id="abs_axis_5" label="down">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F5"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="115"/>
         </button>
         <button id="abs_axis_6" label="left">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F6"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="116"/>
         </button>
         <button id="abs_axis_4" label="right">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F4"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="114"/>
         </button>
         <button id="abs_axis_15" label="l3">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F1"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="111"/>
         </button>
         <button id="abs_axis_13" label="l2">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="6"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="106"/>
         </button>
         <button id="abs_axis_7" label="triangle">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="2"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="102"/>
         </button>
         <button id="abs_axis_9" label="cross">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="0"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="100"/>
         </button>
         <button id="abs_axis_8" label="circle">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="1"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="101"/>
+        </button>
+        <button id="abs_axis_2" label="PS">
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="110"/>
         </button>
         <button id="abs_axis_1" label="options">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="9"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="109"/>
         </button>
         <button id="abs_axis_10" label="square">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="3"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="103"/>
         </button>
         <button id="abs_axis_12" label="r1">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="5"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="105"/>
         </button>
         <button id="abs_axis_11" label="l1">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="4"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="104"/>
         </button>
         <button id="abs_axis_14" label="r2">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="7"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="107"/>
         </button>
         <button id="abs_axis_16" label="r3">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F2"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="112"/>
         </button>
         <button id="abs_axis_17" label="touchpad">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F7"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="117"/>
         </button>
         <button id="abs_axis_17" label="touchpad">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F8"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="118"/>
         </button>
         <button id="abs_axis_17" label="touchpad">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F9"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="119"/>
         </button>
         <button id="abs_axis_17" label="touchpad">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F10"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="120"/>
         </button>
         <button id="abs_axis_18" label="finger1">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F7"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="117"/>
         </button>
         <button id="abs_axis_18" label="finger1">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F8"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="118"/>
         </button>
         <button id="abs_axis_18" label="finger1">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F9"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="119"/>
         </button>
         <button id="abs_axis_18" label="finger1">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F10"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="120"/>
         </button>
         <button id="abs_axis_9" label="cross">
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
@@ -144,7 +148,7 @@
         </button>
         <button id="abs_axis_13" label="l2">
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
-          <event type="button" id="29"/>
+          <event type="button" id="17"/>
         </button>
         <button id="abs_axis_2" label="PS">
           <device type="keyboard" id="0" name=""/>
@@ -153,18 +157,6 @@
         <button id="abs_axis_1" label="options">
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
           <event type="button" id="12"/>
-        </button>
-        <button id="abs_axis_11" label="l1">
-          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
-          <event type="button" id="0"/>
-        </button>
-        <button id="abs_axis_12" label="r1">
-          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
-          <event type="button" id="1"/>
-        </button>
-        <button id="abs_axis_15" label="l3">
-          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
-          <event type="button" id="20"/>
         </button>
       </button_map>
       <axis_map>
@@ -185,28 +177,28 @@
           <event type="axis" id="2" dead_zone="0" multiplier="0.0039" exponent="1.00" shape=""/>
         </axis>
         <axis id="rel_axis_4+" label="finger1 x +">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F7"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="117"/>
         </axis>
         <axis id="rel_axis_4+" label="finger1 x +">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F8"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="118"/>
         </axis>
         <axis id="rel_axis_4-" label="finger1 x -">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F9"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="119"/>
         </axis>
         <axis id="rel_axis_4-" label="finger1 x -">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F10"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="120"/>
         </axis>
         <axis id="rel_axis_5+" label="finger1 y +">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F8"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="118"/>
         </axis>
         <axis id="rel_axis_5+" label="finger1 y +">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F9"/>
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="119"/>
         </axis>
       </axis_map>
       <joystick_corrections_list/>
