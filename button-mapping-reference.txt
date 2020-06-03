@@ -1,471 +1,134 @@
 ##################################################
 # Stick buttons (triggers/hats and their shifts)
 ##################################################
-
 #-------------------------------------------------
 # Navigation mode
 #-------------------------------------------------
-
 #- - - - - - - - - - - - - - - - - - - - - - - - -
 # Regular
 # Combos prefixed by Northwest touchpad in game
 #- - - - - - - - - - - - - - - - - - - - - - - - -
-
 # Trigger
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F10
-DELAY 100
-KEYDOWN 7
-DELAY 100
-KEYUP F10
-KEYUP 7
-
 # Secondary fire
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F10
-DELAY 100
-KEYDOWN 6
-DELAY 100
-KEYUP F10
-KEYUP 6
-
 # D-pad Up
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F10
-DELAY 100
-KEYDOWN F3
-DELAY 100
-KEYUP F10
-KEYUP F3
-
 # D-pad Right
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F10
-DELAY 100
-KEYDOWN F4
-DELAY 100
-KEYUP F10
-KEYUP F4
-
 # D-pad Down
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F10
-DELAY 100
-KEYDOWN F5
-DELAY 100
-KEYUP F10
-KEYUP F5
-
 # D-pad Left
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F10
-DELAY 100
-KEYDOWN F6
-DELAY 100
-KEYUP F10
-KEYUP F6
-
 #- - - - - - - - - - - - - - - - - - - - - - - - -
 # Pinky shift
 # Combos prefixed by Southwest touchpad in game
 #- - - - - - - - - - - - - - - - - - - - - - - - -
-
 # Trigger
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F9
-DELAY 100
-KEYDOWN 7
-DELAY 100
-KEYUP F9
-KEYUP 7
-
 # Secondary fire
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F9
-DELAY 100
-KEYDOWN 6
-DELAY 100
-KEYUP F9
-KEYUP 6
-
 # D-pad Up
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F9
-DELAY 100
-KEYDOWN F3
-DELAY 100
-KEYUP F9
-KEYUP F3
-
 # D-pad Right
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F9
-DELAY 100
-KEYDOWN F4
-DELAY 100
-KEYUP F9
-KEYUP F4
-
 # D-pad Down
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F9
-DELAY 100
-KEYDOWN F5
-DELAY 100
-KEYUP F9
-KEYUP F5
-
 # D-pad Left
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F9
-DELAY 100
-KEYDOWN F6
-DELAY 100
-KEYUP F9
-KEYUP F6
-
 #-------------------------------------------------
 # Combat mode
 #-------------------------------------------------
-
 #- - - - - - - - - - - - - - - - - - - - - - - - -
 # Regular
 # Combos prefixed by Northeast touchpad in game
 #- - - - - - - - - - - - - - - - - - - - - - - - -
-
 # Trigger
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F7
-DELAY 100
-KEYDOWN 7
-DELAY 100
-KEYUP F7
-KEYUP 7
-
 # Secondary fire
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F7
-DELAY 100
-KEYDOWN 6
-DELAY 100
-KEYUP F7
-KEYUP 6
-
 # D-pad Up
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F7
-DELAY 100
-KEYDOWN F3
-DELAY 100
-KEYUP F7
-KEYUP F3
-
 # D-pad Right
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F7
-DELAY 100
-KEYDOWN F4
-DELAY 100
-KEYUP F7
-KEYUP F4
-
 # D-pad Down
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F7
-DELAY 100
-KEYDOWN F5
-DELAY 100
-KEYUP F7
-KEYUP F5
-
 # D-pad Left
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F7
-DELAY 100
-KEYDOWN F6
-DELAY 100
-KEYUP F7
-KEYUP F6
-
 #- - - - - - - - - - - - - - - - - - - - - - - - -
 # Pinky shift
 # Combos prefixed by Southeast touchpad in game
 #- - - - - - - - - - - - - - - - - - - - - - - - -
-
 # Trigger
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F8
-DELAY 100
-KEYDOWN 7
-DELAY 100
-KEYUP F8
-KEYUP 7
-
 # Secondary fire
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F8
-DELAY 100
-KEYDOWN 6
-DELAY 100
-KEYUP F8
-KEYUP 6
-
 # D-pad Up
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F8
-DELAY 100
-KEYDOWN F3
-DELAY 100
-KEYUP F8
-KEYUP F3
-
 # D-pad Right
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F8
-DELAY 100
-KEYDOWN F4
-DELAY 100
-KEYUP F8
-KEYUP F4
-
 # D-pad Down
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F8
-DELAY 100
-KEYDOWN F5
-DELAY 100
-KEYUP F8
-KEYUP F5
-
 # D-pad Left
 #
-MACRO JBUTTONDOWN Z
-KEYDOWN F8
-DELAY 100
-KEYDOWN F6
-DELAY 100
-KEYUP F8
-KEYUP F6
-
 ##################################################
 # Base buttons
 ##################################################
-
 #-------------------------------------------------
 # Column 1 (docking)
 # Combos prefixed by Square in game
 #-------------------------------------------------
-
 # A1
 #
-MACRO JBUTTONDOWN 2
-KEYDOWN 3
-DELAY 100
-KEYDOWN 4
-DELAY 100
-KEYUP 3
-KEYUP 4
-
 # B1
 # Toggle landing gear
-MACRO JBUTTONDOWN 5
-KEYDOWN 3
-DELAY 100
-KEYDOWN 6
-DELAY 100
-KEYUP 3
-KEYUP 6
-
 # C1
 #
-MACRO JBUTTONDOWN 8
-KEYDOWN 3
-DELAY 100
-KEYDOWN F1
-DELAY 100
-KEYUP 3
-KEYUP F1
-
 #-------------------------------------------------
 # Column 2 (cockpit modes)
 # Combos prefixed by Triangle in game
 #-------------------------------------------------
-
 # A2
 # Open discovery
-MACRO JBUTTONDOWN 3
-KEYDOWN 2
-DELAY 100
-KEYDOWN 4
-DELAY 100
-KEYUP 2
-KEYUP 4
-
 # B2
 # Switch cockpit mode
-MACRO JBUTTONDOWN 6
-KEYDOWN 2
-DELAY 100
-KEYDOWN 6
-DELAY 100
-KEYUP 2
-KEYUP 6
-
 # C2
 # Enter FSS mode
-MACRO JBUTTONDOWN 9
-KEYDOWN 2
-DELAY 100
-KEYDOWN F1
-DELAY 100
-KEYUP 2
-KEYUP F1
-
 #-------------------------------------------------
 # Column 3 (mining/exploration)
 # Combos prefixed by Circle in game
 #-------------------------------------------------
-
 # A3
 # Toggle hardpoints
-MACRO JBUTTONDOWN 4
-KEYDOWN 1
-DELAY 100
-KEYDOWN 4
-DELAY 100
-KEYUP 1
-KEYUP 4
-
 # B3
 # Toggle night vision
-MACRO JBUTTONDOWN 7
-KEYDOWN 1
-DELAY 100
-KEYDOWN 6
-DELAY 100
-KEYUP 1
-KEYUP 6
-
 # C3
 # Toggle cargo scoop
-MACRO JBUTTONDOWN 10
-KEYDOWN 1
-DELAY 100
-KEYDOWN F1
-DELAY 100
-KEYUP 1
-KEYUP F1
-
 #-------------------------------------------------
 # Miscellaneous buttons
 # Combos prefixed by Cross in game
 #-------------------------------------------------
-
 # Flap A (closest to throttle)
 #
-MACRO JBUTTONDOWN 0
-KEYDOWN 0
-DELAY 100
-KEYDOWN 4
-DELAY 100
-KEYUP 0
-KEYUP 4
-
 # Flap B
 #
-MACRO JBUTTONDOWN 1
-KEYDOWN 0
-DELAY 100
-KEYDOWN 5
-DELAY 100
-KEYUP 0
-KEYUP 5
-
 # Start
 # FSD Drive
-MACRO JBUTTONDOWN 11
-KEYDOWN 0
-DELAY 100
-KEYDOWN 2
-DELAY 100
-KEYUP 0
-KEYUP 2
-
 # Eject
 # Options
-MACRO JBUTTONDOWN 12
-KEY 9 # Not a combo because it's PS-level
-
 ##################################################
 # Voice commands/keyboard controls
 # Combos prefixed by R1 in game
 ##################################################
-
 # W
 # Open communication menu
-MACRO KEYDOWN w
-KEYDOWN 5
-DELAY 100
-KEYDOWN F3
-DELAY 100
-KEYUP 5
-KEYUP F3
-
 # D
 # Open ship menu
-MACRO KEYDOWN d
-KEYDOWN 5
-DELAY 100
-KEYDOWN F4
-DELAY 100
-KEYUP 5
-KEYUP F4
-
 # S
 # Open cockpit menu
-MACRO KEYDOWN s
-KEYDOWN 5
-DELAY 100
-KEYDOWN F5
-DELAY 100
-KEYUP 5
-KEYUP F5
-
 # A
 # Open navigation menu
-MACRO KEYDOWN a
-KEYDOWN 5
-DELAY 100
-KEYDOWN F6
-DELAY 100
-KEYUP 5
-KEYUP F6
-
 # TODO Fix these to use the new button mappings (maybe call existing macros)
-
 #
 # Engage supercruise drive
 # MACRO JBUTTONDOWN v
@@ -475,7 +138,6 @@ KEYUP F6
 # DELAY 100
 # JBUTTONUP i
 # JBUTTONUP DOWN
-
 #
 # Lift off landing pad
 # MACRO JBUTTONDOWN b
@@ -486,7 +148,6 @@ KEYUP F6
 # JBUTTON x
 # Engage normal flight controls
 # JBUTTON u
-
 #
 # Request docking permissions
 # MACRO JBUTTONDOWN 8
