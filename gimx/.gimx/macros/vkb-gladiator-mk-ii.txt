@@ -68,6 +68,15 @@ DELAY 100
 KEYUP 1
 KEYUP F3
 
+# Shift + Secondary Fire in Dogfight mode: Toggle flight assist
+MACRO JBUTTONDOWN 18
+KEYDOWN 1
+DELAY 100
+KEYDOWN 5
+DELAY 100
+KEYUP 1
+KEYUP 5
+
 # Request docking permissions
 MACRO JBUTTONDOWN c
 JBUTTONDOWN j

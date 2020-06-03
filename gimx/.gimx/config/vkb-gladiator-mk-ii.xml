@@ -158,6 +158,14 @@
           <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
           <event type="button" id="12"/>
         </button>
+        <button id="abs_axis_9" label="cross">
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="14"/>
+        </button>
+        <button id="abs_axis_8" label="circle">
+          <device type="joystick" id="0" name="www.vkb-sim.pro www.forum.vkb-sim.pro © Alex Oz 2012-2017 VKBsim Gladiator "/>
+          <event type="button" id="24"/>
+        </button>
       </button_map>
       <axis_map>
         <axis id="rel_axis_1" label="lstick y">
