@@ -1,27 +1,4 @@
 #-------------------------------------------------
-# VKB Gladiator MK II button names to numbers:
-#-------------------------------------------------
-
-# Flap A:           0 (closest to throttle)
-# Flap B:           1
-# A1:               2
-# A2:               3
-# A3:               4
-# B1:               5
-# B2:               6
-# B3:               7
-# C1:               8
-# C2:               9
-# C3:              10
-# Start:           11
-# Eject:           12
-# Mode:            29
-# Shift Hat Up:    21
-# Shift Hat Down:  22
-# Shift Hat Left:  23
-# Shift Hat Right: 24
-
-#-------------------------------------------------
 # Virtual DualShock button names to keyboard keys:
 #-------------------------------------------------
 

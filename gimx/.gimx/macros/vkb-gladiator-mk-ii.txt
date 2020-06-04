@@ -5,38 +5,29 @@
 # Hat Up
 # D-pad Up
 MACRO JBUTTONDOWN 80
-KEYDOWN F10
+KEYDOWN F3
 MACRO JBUTTONUP 80
 KEYUP F3
 
 # Hat Right
 # D-pad right
 MACRO JBUTTONDOWN 81
-KEYDOWN F10
-DELAY 80
 KEYDOWN F4
 MACRO JBUTTONUP 81
-KEYUP F10
 KEYUP F4
 
 # Hat Down
 # D-pad Down
 MACRO JBUTTONDOWN 82
-KEYDOWN F10
-DELAY 80
 KEYDOWN F5
 MACRO JBUTTONUP 82
-KEYUP F10
 KEYUP F5
 
 # Hat Left
 # D-pad Left
 MACRO JBUTTONDOWN 83
-KEYDOWN F10
-DELAY 80
 KEYDOWN F6
 MACRO JBUTTONUP 83
-KEYUP F10
 KEYUP F6
 
 #-------------------------------------------------
@@ -54,7 +45,6 @@ MACRO JBUTTONDOWN 15
 # Not a combo because it's PS-level
 KEY 0
 
-# Thumb Button
 # Secondary fire
 MACRO JBUTTONDOWN 19
 KEYDOWN F10
@@ -70,7 +60,6 @@ KEYUP 6
 #- - - - - - - - - - - - - - - - - - - - - - - - -
 
 # Trigger
-#
 MACRO JBUTTONDOWN 16
 KEYDOWN F9
 DELAY 80
@@ -80,7 +69,6 @@ KEYUP F9
 KEYUP 7
 
 # Secondary fire
-#
 MACRO JBUTTONDOWN 20
 KEYDOWN F9
 DELAY 80
@@ -139,7 +127,6 @@ KEYUP F6
 #- - - - - - - - - - - - - - - - - - - - - - - - -
 
 # Trigger
-#
 MACRO JBUTTONDOWN 13
 KEYDOWN F7
 DELAY 80
@@ -149,7 +136,6 @@ KEYUP F7
 KEYUP 7
 
 # Secondary fire
-#
 MACRO JBUTTONDOWN 17
 KEYDOWN F7
 DELAY 80
@@ -164,7 +150,6 @@ KEYUP 6
 #- - - - - - - - - - - - - - - - - - - - - - - - -
 
 # Trigger
-#
 MACRO JBUTTONDOWN 14
 KEYDOWN F8
 DELAY 80
@@ -174,7 +159,6 @@ KEYUP F8
 KEYUP 7
 
 # Secondary fire
-#
 MACRO JBUTTONDOWN 18
 KEYDOWN F8
 DELAY 80
@@ -338,7 +322,7 @@ KEYUP F1
 #-------------------------------------------------
 
 # Flap A (closest to throttle)
-# Boost
+# Boost/Menu tab left
 MACRO JBUTTONDOWN 0
 KEYDOWN 4
 DELAY 80
@@ -348,7 +332,7 @@ KEYUP 4
 KEYUP F6
 
 # Flap B
-# Thrust reverse toggle
+# Thrust reverse toggle/Menu tab right
 MACRO JBUTTONDOWN 1
 KEYDOWN 4
 DELAY 80
