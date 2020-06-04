@@ -130,7 +130,7 @@ func main() {
 		[]gobot.Device{bb8Conn},
 		bb8Work,
 	)
-	robot.Start()
+	go robot.Start()
 
 	fmt.Println("Configuring keyboard presses...")
 	var err error
