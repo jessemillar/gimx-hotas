@@ -120,7 +120,7 @@
 # Open cockpit menu
 # A
 # Open navigation menu
-# TODO Fix these to use the new button mappings (maybe call existing macros)
+# TODO Fix these to use the new button mappings
 #
 # Engage supercruise drive
 # MACRO JBUTTONDOWN v
