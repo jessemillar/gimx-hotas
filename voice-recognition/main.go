@@ -16,17 +16,17 @@ import (
 var keywordConfig = map[string]int{
 	// TODO Fix the hotkeys for these in the macro file
 	// "landing gear":           keybd_event.VK_X,
-	// "docking permissions":    keybd_event.VK_C,
+	"docking permissions": keybd_event.VK_C,
 	// "super cruise":           keybd_event.VK_V,
 	// "supercruise":            keybd_event.VK_V,
 	// "take us up":             keybd_event.VK_B,
 	// "warp drive":             keybd_event.VK_N,
-	// "communications panel":   keybd_event.VK_W,
-	// "comms panel":            keybd_event.VK_W,
-	"ship panel":       keybd_event.VK_D,
-	"control panel":    keybd_event.VK_S,
-	"navigation panel": keybd_event.VK_A,
-	"nav panel":        keybd_event.VK_A,
+	"communications panel": keybd_event.VK_W,
+	"comms panel":          keybd_event.VK_W,
+	"ship panel":           keybd_event.VK_D,
+	"control panel":        keybd_event.VK_S,
+	"navigation panel":     keybd_event.VK_A,
+	"nav panel":            keybd_event.VK_A,
 }
 
 var keyboard keybd_event.KeyBonding

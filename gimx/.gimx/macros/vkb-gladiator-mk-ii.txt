@@ -423,7 +423,7 @@ MACRO KEYUP a
 KEYUP 5
 KEYUP F6
 
-# TODO Fix these to use the new button mappings (maybe call existing macros)
+# TODO Fix these to use the new button mappings
 
 #
 # Engage supercruise drive
@@ -446,22 +446,17 @@ KEYUP F6
 # Engage normal flight controls
 # JBUTTON u
 
-#
+# Q
 # Request docking permissions
-# MACRO JBUTTONDOWN 8
-# KEYDOWN 3
-# DELAY 80
-# KEYDOWN F6
-# DELAY 80
-# KEYUP 3
-# KEYUP F6
-# DELAY 800
-# KEY 5
-# DELAY 800
-# KEY 5
-# DELAY 800
-# KEY F4
-# DELAY 80
-# KEY 0
-# DELAY 80
-# KEY 1
+MACRO KEYDOWN q
+KEY a # Open navigation panel
+DELAY 1000
+JBUTTON 1 # Tab right
+DELAY 800
+JBUTTON 1 # Tab right
+DELAY 800
+JBUTTON 81 # D-pad right
+DELAY 80
+JBUTTON 15 # Select
+DELAY 80
+JBUTTON 19 # Exit menu

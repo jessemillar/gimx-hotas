@@ -1,6 +1,14 @@
 ##################################################
 # Stick buttons (triggers/hats and their shifts)
 ##################################################
+# D-pad Up
+#
+# D-pad Right
+#
+# D-pad Down
+#
+# D-pad Left
+#
 #-------------------------------------------------
 # Navigation mode
 #-------------------------------------------------
@@ -9,16 +17,8 @@
 # Combos prefixed by Northwest touchpad in game
 #- - - - - - - - - - - - - - - - - - - - - - - - -
 # Trigger
-#
+# Cross
 # Secondary fire
-#
-# D-pad Up
-#
-# D-pad Right
-#
-# D-pad Down
-#
-# D-pad Left
 #
 #- - - - - - - - - - - - - - - - - - - - - - - - -
 # Pinky shift
@@ -46,14 +46,6 @@
 # Trigger
 #
 # Secondary fire
-#
-# D-pad Up
-#
-# D-pad Right
-#
-# D-pad Down
-#
-# D-pad Left
 #
 #- - - - - - - - - - - - - - - - - - - - - - - - -
 # Pinky shift
@@ -106,12 +98,12 @@
 # Toggle cargo scoop
 #-------------------------------------------------
 # Miscellaneous buttons
-# Combos prefixed by Cross in game
+# Combos prefixed by L1 in game
 #-------------------------------------------------
 # Flap A (closest to throttle)
-#
+# Boost
 # Flap B
-#
+# Thrust reverse toggle
 # Start
 # FSD Drive
 # Eject
@@ -133,37 +125,20 @@
 # Engage supercruise drive
 # MACRO JBUTTONDOWN v
 # JBUTTONDOWN i
-# DELAY 100
+# DELAY 80
 # JBUTTONDOWN DOWN
-# DELAY 100
+# DELAY 80
 # JBUTTONUP i
 # JBUTTONUP DOWN
 #
 # Lift off landing pad
 # MACRO JBUTTONDOWN b
 # JBUTTONDOWN s
-# DELAY 5000
+# DELAY 8000
 # JBUTTONUP s
 # Use the landing gear macro to raise the landing gear
 # JBUTTON x
 # Engage normal flight controls
 # JBUTTON u
-#
+# Q
 # Request docking permissions
-# MACRO JBUTTONDOWN 8
-# KEYDOWN 3
-# DELAY 100
-# KEYDOWN F6
-# DELAY 100
-# KEYUP 3
-# KEYUP F6
-# DELAY 1000
-# KEY 5
-# DELAY 500
-# KEY 5
-# DELAY 200
-# KEY F4
-# DELAY 100
-# KEY 0
-# DELAY 100
-# KEY 1
