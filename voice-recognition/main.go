@@ -11,6 +11,10 @@ import (
 	"github.com/Microsoft/cognitive-services-speech-sdk-go/audio"
 	"github.com/Microsoft/cognitive-services-speech-sdk-go/speech"
 	"github.com/micmonay/keybd_event"
+	"gobot.io/x/gobot"
+	"gobot.io/x/gobot/platforms/ble"
+	"gobot.io/x/gobot/platforms/sphero/bb8"
+	"gobot.io/x/gobot/platforms/sphero/ollie"
 )
 
 var keywordConfig = map[string]int{
@@ -49,6 +53,8 @@ var keywordConfig = map[string]int{
 }
 
 var keyboard keybd_event.KeyBonding
+var bb8Conn *bb8.BB8Driver
+var batteryStates = []string{"charging", "battery ok", "battery low", "battery critical"}
 
 func recognizedHandler(event speech.SpeechRecognitionEventArgs) {
 	defer event.Close()
@@ -57,8 +63,13 @@ func recognizedHandler(event speech.SpeechRecognitionEventArgs) {
 		if strings.Contains(strings.ToLower(event.Result.Text), k) {
 			fmt.Println("Executing:", k)
 			pressKey(v)
+			bb8Flash("success")
+			return
 		}
 	}
+
+	bb8Flash("error")
+	return
 }
 
 func cancelledHandler(event speech.SpeechRecognitionCanceledEventArgs) {
@@ -77,8 +88,48 @@ func pressKey(key int) {
 	}
 }
 
+func bb8Work() {
+	gobot.Every(time.Second*30, func() {
+		bb8Conn.GetPowerState(func(powerState ollie.PowerStatePacket) {
+			fmt.Println("Battery: " + batteryStates[powerState.PowerState-1])
+
+			if powerState.PowerState-1 < 2 {
+				angle := uint16(gobot.Rand(200))
+				bb8Conn.Roll(1, angle)
+				time.Sleep(time.Second)
+				bb8Conn.Roll(0, angle)
+			}
+		})
+	})
+}
+
+func bb8Flash(flashType string) {
+	r, g, b := uint8(0), uint8(0), uint8(0)
+
+	if flashType == "error" {
+		r, g, b = 197, 101, 4
+	} else if flashType == "success" {
+		r, g, b = 2, 156, 254
+	}
+
+	bb8Conn.SetRGB(r, g, b)
+	time.Sleep(time.Second * 2)
+	bb8Conn.SetRGB(0, 0, 0)
+}
+
 func main() {
 	fmt.Println("Starting up...")
+
+	fmt.Println("Configuring BB-8 integration...")
+	bleAdaptor := ble.NewClientAdaptor(os.Args[1])
+	bb8Conn = bb8.NewDriver(bleAdaptor)
+	bb8Conn.SetRGB(0, 0, 0)
+	robot := gobot.NewRobot("bb",
+		[]gobot.Connection{bleAdaptor},
+		[]gobot.Device{bb8Conn},
+		bb8Work,
+	)
+	robot.Start()
 
 	fmt.Println("Configuring keyboard presses...")
 	var err error
