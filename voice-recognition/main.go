@@ -16,7 +16,7 @@ import (
 var keywordConfig = map[string]int{
 	// TODO Fix the hotkeys for these in the macro file
 	// "landing gear":           keybd_event.VK_X,
-	"docking permissions": keybd_event.VK_C,
+	"docking permissions": keybd_event.VK_Q,
 	// "super cruise":           keybd_event.VK_V,
 	// "supercruise":            keybd_event.VK_V,
 	// "take us up":             keybd_event.VK_B,
