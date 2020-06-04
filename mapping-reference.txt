@@ -103,7 +103,8 @@
 ## Eject
 ## Options
 ###################################################
-## Miscellaneous buttons
+## External control "buttons"
+## Note: Used by voice commands, not manually
 ## Combos prefixed by R1 in game
 ###################################################
 ##-------------------------------------------------

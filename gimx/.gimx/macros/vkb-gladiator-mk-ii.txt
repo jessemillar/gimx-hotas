@@ -366,7 +366,8 @@ MACRO JBUTTONUP 12
 KEYUP 9
 
 ###################################################
-## Miscellaneous buttons
+## External control "buttons"
+## Note: Used by voice commands, not manually
 ## Combos prefixed by R1 in game
 ###################################################
 
