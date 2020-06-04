@@ -144,13 +144,21 @@
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="F9"/>
         </axis>
-        <axis id="rel_axis_5-" label="">
+        <axis id="rel_axis_5-" label="finger1 y -">
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="F7"/>
         </axis>
-        <axis id="rel_axis_5-" label="">
+        <axis id="rel_axis_5-" label="finger1 y -">
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="F10"/>
+        </axis>
+        <axis id="rel_axis_1+" label="lstick y">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="DOWN"/>
+        </axis>
+        <axis id="rel_axis_1-" label="lstick y">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="UP"/>
         </axis>
       </axis_map>
       <joystick_corrections_list/>

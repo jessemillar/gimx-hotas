@@ -54,13 +54,11 @@ MACRO JBUTTONUP 15
 KEYUP 0
 
 ## Secondary fire
+## Circle
 MACRO JBUTTONDOWN 19
-KEYDOWN F10
-DELAY 100
-KEYDOWN 6
+KEYDOWN 1
 MACRO JBUTTONUP 19
-KEYUP F10
-KEYUP 6
+KEYUP 1
 
 ##- - - - - - - - - - - - - - - - - - - - - - - - -
 ## Pinky shift
@@ -369,6 +367,7 @@ KEYUP 9
 
 ##-------------------------------------------------
 ## Keyboard buttons
+## Note: Manually delay >200 if used in macro
 ##-------------------------------------------------
 
 ## W
@@ -377,7 +376,7 @@ MACRO KEYDOWN w
 KEYDOWN 5
 DELAY 100
 KEYDOWN F3
-MACRO KEYUP w
+DELAY 100
 KEYUP 5
 KEYUP F3
 
@@ -387,7 +386,7 @@ MACRO KEYDOWN d
 KEYDOWN 5
 DELAY 100
 KEYDOWN F4
-MACRO KEYUP d
+DELAY 100
 KEYUP 5
 KEYUP F4
 
@@ -397,7 +396,7 @@ MACRO KEYDOWN s
 KEYDOWN 5
 DELAY 100
 KEYDOWN F5
-MACRO KEYUP s
+DELAY 100
 KEYUP 5
 KEYUP F5
 
@@ -407,7 +406,7 @@ MACRO KEYDOWN a
 KEYDOWN 5
 DELAY 100
 KEYDOWN F6
-MACRO KEYUP a
+DELAY 100
 KEYUP 5
 KEYUP F6
 
@@ -442,9 +441,11 @@ JBUTTONUP 4
 ## R
 ## Lift off landing pad
 MACRO KEYDOWN r
-JAXIS 1 32767
+KEYDOWN DOWN
+# JAXIS 1 32767
 DELAY 5000
-JAXIS 1 0
+KEYUP DOWN
+# JAXIS 1 0
 # Use the landing gear macro to raise the landing gear
 KEYDOWN f
 DELAY 150

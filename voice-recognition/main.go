@@ -27,13 +27,17 @@ var keywordConfig = map[string]int{
 	"warp drive":   keybd_event.VK_E,
 	"light speed":  keybd_event.VK_E,
 	"lightspeed":   keybd_event.VK_E,
+	"drop":         keybd_event.VK_E,
 
 	"take us up": keybd_event.VK_R,
+	"get going":  keybd_event.VK_R,
 	"lift off":   keybd_event.VK_R,
 	"launch":     keybd_event.VK_R,
 
 	"communications panel": keybd_event.VK_W,
 	"comms panel":          keybd_event.VK_W,
+	"communications":       keybd_event.VK_W,
+	"communication":        keybd_event.VK_W,
 
 	"ship panel": keybd_event.VK_D,
 
@@ -41,6 +45,7 @@ var keywordConfig = map[string]int{
 
 	"navigation panel": keybd_event.VK_A,
 	"nav panel":        keybd_event.VK_A,
+	"navigation":       keybd_event.VK_A,
 }
 
 var keyboard keybd_event.KeyBonding
