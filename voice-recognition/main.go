@@ -53,6 +53,7 @@ var keywordConfig = map[string]int{
 }
 
 var keyboard keybd_event.KeyBonding
+var bb8Id = "BB-9B05"
 var bb8Conn *bb8.BB8Driver
 var batteryStates = []string{"charging", "battery ok", "battery low", "battery critical"}
 
@@ -121,7 +122,7 @@ func main() {
 	fmt.Println("Starting up...")
 
 	fmt.Println("Configuring BB-8 integration...")
-	bleAdaptor := ble.NewClientAdaptor(os.Args[1])
+	bleAdaptor := ble.NewClientAdaptor(bb8Id)
 	bb8Conn = bb8.NewDriver(bleAdaptor)
 	bb8Conn.SetRGB(0, 0, 0)
 	robot := gobot.NewRobot("bb",
