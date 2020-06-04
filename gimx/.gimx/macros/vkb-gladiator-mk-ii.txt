@@ -52,14 +52,9 @@ KEYUP F6
 #- - - - - - - - - - - - - - - - - - - - - - - - -
 
 # Trigger
-#
+# Cross
 MACRO JBUTTONDOWN 15
-KEYDOWN F10
-DELAY 100
-KEYDOWN 7
-DELAY 100
-KEYUP F10
-KEYUP 7
+KEY 0 # Not a combo because it's PS-level
 
 # Secondary fire
 #
@@ -345,7 +340,7 @@ KEYUP F1
 #-------------------------------------------------
 
 # Flap A (closest to throttle)
-#
+# Boost
 MACRO JBUTTONDOWN 0
 KEYDOWN 0
 DELAY 100
@@ -355,7 +350,7 @@ KEYUP 0
 KEYUP 4
 
 # Flap B
-#
+# Thrust reverse toggle
 MACRO JBUTTONDOWN 1
 KEYDOWN 0
 DELAY 100
