@@ -2,18 +2,15 @@
 # Stick buttons (triggers/hats and their shifts)
 ##################################################
 
+# Hat Up
 # D-pad Up
-#
 MACRO JBUTTONDOWN 80
 KEYDOWN F10
-DELAY 80
-KEYDOWN F3
 MACRO JBUTTONUP 80
-KEYUP F10
 KEYUP F3
 
-# D-pad Right
-#
+# Hat Right
+# D-pad right
 MACRO JBUTTONDOWN 81
 KEYDOWN F10
 DELAY 80
@@ -22,8 +19,8 @@ MACRO JBUTTONUP 81
 KEYUP F10
 KEYUP F4
 
+# Hat Down
 # D-pad Down
-#
 MACRO JBUTTONDOWN 82
 KEYDOWN F10
 DELAY 80
@@ -32,8 +29,8 @@ MACRO JBUTTONUP 82
 KEYUP F10
 KEYUP F5
 
+# Hat Left
 # D-pad Left
-#
 MACRO JBUTTONDOWN 83
 KEYDOWN F10
 DELAY 80
@@ -54,10 +51,11 @@ KEYUP F6
 # Trigger
 # Cross
 MACRO JBUTTONDOWN 15
-KEY 0 # Not a combo because it's PS-level
+# Not a combo because it's PS-level
+KEY 0
 
+# Thumb Button
 # Secondary fire
-#
 MACRO JBUTTONDOWN 19
 KEYDOWN F10
 DELAY 80
@@ -91,8 +89,8 @@ MACRO JBUTTONUP 20
 KEYUP F9
 KEYUP 6
 
+# Hat Up
 # D-pad Up
-#
 MACRO JBUTTONDOWN 25
 KEYDOWN F9
 DELAY 80
@@ -101,8 +99,8 @@ MACRO JBUTTONUP 25
 KEYUP F9
 KEYUP F3
 
+# Hat Right
 # D-pad Right
-#
 MACRO JBUTTONDOWN 28
 KEYDOWN F9
 DELAY 80
@@ -111,8 +109,8 @@ MACRO JBUTTONUP 28
 KEYUP F9
 KEYUP F4
 
+# Hat Down
 # D-pad Down
-#
 MACRO JBUTTONDOWN 26
 KEYDOWN F9
 DELAY 80
@@ -121,8 +119,8 @@ MACRO JBUTTONUP 26
 KEYUP F9
 KEYUP F5
 
+# Hat Left
 # D-pad Left
-#
 MACRO JBUTTONDOWN 27
 KEYDOWN F9
 DELAY 80
@@ -185,8 +183,8 @@ MACRO JBUTTONUP 18
 KEYUP F8
 KEYUP 6
 
+# Hat Up
 # D-pad Up
-#
 MACRO JBUTTONDOWN 21
 KEYDOWN F8
 DELAY 80
@@ -195,8 +193,8 @@ MACRO JBUTTONUP 21
 KEYUP F8
 KEYUP F3
 
+# Hat Right
 # D-pad Right
-#
 MACRO JBUTTONDOWN 24
 KEYDOWN F8
 DELAY 80
@@ -205,8 +203,8 @@ MACRO JBUTTONUP 24
 KEYUP F8
 KEYUP F4
 
+# Hat Down
 # D-pad Down
-#
 MACRO JBUTTONDOWN 22
 KEYDOWN F8
 DELAY 80
@@ -215,8 +213,8 @@ MACRO JBUTTONUP 22
 KEYUP F8
 KEYUP F5
 
+# Hat Left
 # D-pad Left
-#
 MACRO JBUTTONDOWN 23
 KEYDOWN F8
 DELAY 80
@@ -372,7 +370,8 @@ KEYUP F3
 # Eject
 # Options
 MACRO JBUTTONDOWN 12
-KEY 9 # Not a combo because it's PS-level
+# Not a combo because it's PS-level
+KEY 9
 
 ##################################################
 # Voice commands/keyboard controls
@@ -449,14 +448,20 @@ KEYUP F6
 # Q
 # Request docking permissions
 MACRO KEYDOWN q
-KEY a # Open navigation panel
+# Open navigation panel
+KEY a
 DELAY 1000
-JBUTTON 1 # Tab right
+# Tab right
+JBUTTON 1
 DELAY 800
-JBUTTON 1 # Tab right
+# Tab right
+JBUTTON 1
 DELAY 800
-JBUTTON 81 # D-pad right
+# D-pad right
+JBUTTON 81
 DELAY 80
-JBUTTON 15 # Select
+# Select
+JBUTTON 15
 DELAY 80
-JBUTTON 19 # Exit menu
+# Exit menu
+JBUTTON 19
