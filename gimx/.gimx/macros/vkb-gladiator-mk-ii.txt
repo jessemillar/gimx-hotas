@@ -4,56 +4,56 @@
 #       combos which is why I manually DELAY
 #- - - - - - - - - - - - - - - - - - - - - - - - -
 
-##################################################
-# Stick buttons (triggers/hats and their shifts)
-##################################################
+###################################################
+## Stick buttons (triggers/hats and their shifts)
+###################################################
 
-# Hat Up
-# D-pad Up
+## Hat Up
+## D-pad Up
 MACRO JBUTTONDOWN 80
 KEYDOWN F3
 MACRO JBUTTONUP 80
 KEYUP F3
 
-# Hat Right
-# D-pad right
+## Hat Right
+## D-pad right
 MACRO JBUTTONDOWN 81
 KEYDOWN F4
 MACRO JBUTTONUP 81
 KEYUP F4
 
-# Hat Down
-# D-pad Down
+## Hat Down
+## D-pad Down
 MACRO JBUTTONDOWN 82
 KEYDOWN F5
 MACRO JBUTTONUP 82
 KEYUP F5
 
-# Hat Left
-# D-pad Left
+## Hat Left
+## D-pad Left
 MACRO JBUTTONDOWN 83
 KEYDOWN F6
 MACRO JBUTTONUP 83
 KEYUP F6
 
-#-------------------------------------------------
-# Navigation mode
-#-------------------------------------------------
+##-------------------------------------------------
+## Navigation mode
+##-------------------------------------------------
 
-#- - - - - - - - - - - - - - - - - - - - - - - - -
-# Regular
-# Combos prefixed by Northwest touchpad in game
-#- - - - - - - - - - - - - - - - - - - - - - - - -
+##- - - - - - - - - - - - - - - - - - - - - - - - -
+## Regular
+## Combos prefixed by Northwest touchpad in game
+##- - - - - - - - - - - - - - - - - - - - - - - - -
 
-# Trigger
-# Cross
+## Trigger
+## Cross
 MACRO JBUTTONDOWN 15
 # Not a combo because it's PS-level
 KEYDOWN 0
 MACRO JBUTTONUP 15
 KEYUP 0
 
-# Secondary fire
+## Secondary fire
 MACRO JBUTTONDOWN 19
 KEYDOWN F10
 DELAY 100
@@ -62,12 +62,12 @@ MACRO JBUTTONUP 19
 KEYUP F10
 KEYUP 6
 
-#- - - - - - - - - - - - - - - - - - - - - - - - -
-# Pinky shift
-# Combos prefixed by Southwest touchpad in game
-#- - - - - - - - - - - - - - - - - - - - - - - - -
+##- - - - - - - - - - - - - - - - - - - - - - - - -
+## Pinky shift
+## Combos prefixed by Southwest touchpad in game
+##- - - - - - - - - - - - - - - - - - - - - - - - -
 
-# Trigger
+## Trigger
 MACRO JBUTTONDOWN 16
 KEYDOWN F9
 DELAY 100
@@ -76,7 +76,7 @@ MACRO JBUTTONUP 16
 KEYUP F9
 KEYUP 7
 
-# Secondary fire
+## Secondary fire
 MACRO JBUTTONDOWN 20
 KEYDOWN F9
 DELAY 100
@@ -85,8 +85,8 @@ MACRO JBUTTONUP 20
 KEYUP F9
 KEYUP 6
 
-# Hat Up
-# D-pad Up
+## Hat Up
+## D-pad Up
 MACRO JBUTTONDOWN 25
 KEYDOWN F9
 DELAY 100
@@ -95,8 +95,8 @@ MACRO JBUTTONUP 25
 KEYUP F9
 KEYUP F3
 
-# Hat Right
-# D-pad Right
+## Hat Right
+## D-pad Right
 MACRO JBUTTONDOWN 28
 KEYDOWN F9
 DELAY 100
@@ -105,8 +105,8 @@ MACRO JBUTTONUP 28
 KEYUP F9
 KEYUP F4
 
-# Hat Down
-# D-pad Down
+## Hat Down
+## D-pad Down
 MACRO JBUTTONDOWN 26
 KEYDOWN F9
 DELAY 100
@@ -115,8 +115,8 @@ MACRO JBUTTONUP 26
 KEYUP F9
 KEYUP F5
 
-# Hat Left
-# D-pad Left
+## Hat Left
+## D-pad Left
 MACRO JBUTTONDOWN 27
 KEYDOWN F9
 DELAY 100
@@ -125,16 +125,16 @@ MACRO JBUTTONUP 27
 KEYUP F9
 KEYUP F6
 
-#-------------------------------------------------
-# Combat mode
-#-------------------------------------------------
+##-------------------------------------------------
+## Combat mode
+##-------------------------------------------------
 
-#- - - - - - - - - - - - - - - - - - - - - - - - -
-# Regular
-# Combos prefixed by Northeast touchpad in game
-#- - - - - - - - - - - - - - - - - - - - - - - - -
+##- - - - - - - - - - - - - - - - - - - - - - - - -
+## Regular
+## Combos prefixed by Northeast touchpad in game
+##- - - - - - - - - - - - - - - - - - - - - - - - -
 
-# Trigger
+## Trigger
 MACRO JBUTTONDOWN 13
 KEYDOWN F7
 DELAY 100
@@ -143,7 +143,7 @@ MACRO JBUTTONUP 13
 KEYUP F7
 KEYUP 7
 
-# Secondary fire
+## Secondary fire
 MACRO JBUTTONDOWN 17
 KEYDOWN F7
 DELAY 100
@@ -152,12 +152,12 @@ MACRO JBUTTONUP 17
 KEYUP F7
 KEYUP 6
 
-#- - - - - - - - - - - - - - - - - - - - - - - - -
-# Pinky shift
-# Combos prefixed by Southeast touchpad in game
-#- - - - - - - - - - - - - - - - - - - - - - - - -
+##- - - - - - - - - - - - - - - - - - - - - - - - -
+## Pinky shift
+## Combos prefixed by Southeast touchpad in game
+##- - - - - - - - - - - - - - - - - - - - - - - - -
 
-# Trigger
+## Trigger
 MACRO JBUTTONDOWN 14
 KEYDOWN F8
 DELAY 100
@@ -166,7 +166,7 @@ MACRO JBUTTONUP 14
 KEYUP F8
 KEYUP 7
 
-# Secondary fire
+## Secondary fire
 MACRO JBUTTONDOWN 18
 KEYDOWN F8
 DELAY 100
@@ -175,8 +175,8 @@ MACRO JBUTTONUP 18
 KEYUP F8
 KEYUP 6
 
-# Hat Up
-# D-pad Up
+## Hat Up
+## D-pad Up
 MACRO JBUTTONDOWN 21
 KEYDOWN F8
 DELAY 100
@@ -185,8 +185,8 @@ MACRO JBUTTONUP 21
 KEYUP F8
 KEYUP F3
 
-# Hat Right
-# D-pad Right
+## Hat Right
+## D-pad Right
 MACRO JBUTTONDOWN 24
 KEYDOWN F8
 DELAY 100
@@ -195,8 +195,8 @@ MACRO JBUTTONUP 24
 KEYUP F8
 KEYUP F4
 
-# Hat Down
-# D-pad Down
+## Hat Down
+## D-pad Down
 MACRO JBUTTONDOWN 22
 KEYDOWN F8
 DELAY 100
@@ -205,8 +205,8 @@ MACRO JBUTTONUP 22
 KEYUP F8
 KEYUP F5
 
-# Hat Left
-# D-pad Left
+## Hat Left
+## D-pad Left
 MACRO JBUTTONDOWN 23
 KEYDOWN F8
 DELAY 100
@@ -215,17 +215,17 @@ MACRO JBUTTONUP 23
 KEYUP F8
 KEYUP F6
 
-##################################################
-# Base buttons
-##################################################
+###################################################
+## Base buttons
+###################################################
 
-#-------------------------------------------------
-# Column 1 (docking)
-# Combos prefixed by Square in game
-#-------------------------------------------------
+##-------------------------------------------------
+## Column 1 (docking)
+## Combos prefixed by Square in game
+##-------------------------------------------------
 
-# A1
-#
+## A1
+##
 MACRO JBUTTONDOWN 2
 KEYDOWN 3
 DELAY 100
@@ -234,8 +234,8 @@ MACRO JBUTTONUP 2
 KEYUP 3
 KEYUP 4
 
-# B1
-# Toggle landing gear
+## B1
+## Toggle landing gear
 MACRO JBUTTONDOWN 5
 KEYDOWN 3
 DELAY 100
@@ -244,8 +244,8 @@ MACRO JBUTTONUP 5
 KEYUP 3
 KEYUP 6
 
-# C1
-#
+## C1
+##
 MACRO JBUTTONDOWN 8
 KEYDOWN 3
 DELAY 100
@@ -254,13 +254,13 @@ MACRO JBUTTONUP 8
 KEYUP 3
 KEYUP F1
 
-#-------------------------------------------------
-# Column 2 (cockpit modes)
-# Combos prefixed by Triangle in game
-#-------------------------------------------------
+##-------------------------------------------------
+## Column 2 (cockpit modes)
+## Combos prefixed by Triangle in game
+##-------------------------------------------------
 
-# A2
-# Open discovery
+## A2
+## Open discovery
 MACRO JBUTTONDOWN 3
 KEYDOWN 2
 DELAY 100
@@ -269,8 +269,8 @@ MACRO JBUTTONUP 3
 KEYUP 2
 KEYUP 4
 
-# B2
-# Switch cockpit mode
+## B2
+## Switch cockpit mode
 MACRO JBUTTONDOWN 6
 KEYDOWN 2
 DELAY 100
@@ -279,8 +279,8 @@ MACRO JBUTTONUP 6
 KEYUP 2
 KEYUP 6
 
-# C2
-# Enter FSS mode
+## C2
+## Enter FSS mode
 MACRO JBUTTONDOWN 9
 KEYDOWN 2
 DELAY 100
@@ -289,13 +289,13 @@ MACRO JBUTTONUP 9
 KEYUP 2
 KEYUP F1
 
-#-------------------------------------------------
-# Column 3 (mining/exploration)
-# Combos prefixed by Circle in game
-#-------------------------------------------------
+##-------------------------------------------------
+## Column 3 (mining/exploration)
+## Combos prefixed by Circle in game
+##-------------------------------------------------
 
-# A3
-# Toggle hardpoints
+## A3
+## Toggle hardpoints
 MACRO JBUTTONDOWN 4
 KEYDOWN 1
 DELAY 100
@@ -304,8 +304,8 @@ MACRO JBUTTONUP 4
 KEYUP 1
 KEYUP 4
 
-# B3
-# Toggle night vision
+## B3
+## Toggle night vision
 MACRO JBUTTONDOWN 7
 KEYDOWN 1
 DELAY 100
@@ -314,8 +314,8 @@ MACRO JBUTTONUP 7
 KEYUP 1
 KEYUP 6
 
-# C3
-# Toggle cargo scoop
+## C3
+## Toggle cargo scoop
 MACRO JBUTTONDOWN 10
 KEYDOWN 1
 DELAY 100
@@ -324,13 +324,13 @@ MACRO JBUTTONUP 10
 KEYUP 1
 KEYUP F1
 
-#-------------------------------------------------
-# Miscellaneous buttons
-# Combos prefixed by L1 in game
-#-------------------------------------------------
+##-------------------------------------------------
+## Miscellaneous buttons
+## Combos prefixed by L1 in game
+##-------------------------------------------------
 
-# Flap A (closest to throttle)
-# Boost/Menu tab left
+## Flap A (closest to throttle)
+## Boost/Menu tab left
 MACRO JBUTTONDOWN 0
 KEYDOWN 4
 DELAY 100
@@ -339,8 +339,8 @@ MACRO JBUTTONUP 0
 KEYUP 4
 KEYUP F6
 
-# Flap B
-# Thrust reverse toggle/Menu tab right
+## Flap B
+## Thrust reverse toggle/Menu tab right
 MACRO JBUTTONDOWN 1
 KEYDOWN 4
 DELAY 100
@@ -349,8 +349,8 @@ MACRO JBUTTONUP 1
 KEYUP 4
 KEYUP F4
 
-# Start
-# FSD Drive
+## Start
+## FSD Drive
 MACRO JBUTTONDOWN 11
 KEYDOWN 4
 DELAY 100
@@ -359,25 +359,25 @@ MACRO JBUTTONUP 11
 KEYUP 4
 KEYUP F3
 
-# Eject
-# Options
+## Eject
+## Options
 MACRO JBUTTONDOWN 12
 # Not a combo because it's PS-level
 KEYDOWN 9
 MACRO JBUTTONUP 12
 KEYUP 9
 
-##################################################
-# Miscellaneous buttons
-# Combos prefixed by R1 in game
-##################################################
+###################################################
+## Miscellaneous buttons
+## Combos prefixed by R1 in game
+###################################################
 
-#-------------------------------------------------
-# Keyboard buttons
-#-------------------------------------------------
+##-------------------------------------------------
+## Keyboard buttons
+##-------------------------------------------------
 
-# W
-# Open communication menu
+## W
+## Open communication menu
 MACRO KEYDOWN w
 KEYDOWN 5
 DELAY 100
@@ -386,8 +386,8 @@ MACRO KEYUP w
 KEYUP 5
 KEYUP F3
 
-# D
-# Open ship menu
+## D
+## Open ship menu
 MACRO KEYDOWN d
 KEYDOWN 5
 DELAY 100
@@ -396,8 +396,8 @@ MACRO KEYUP d
 KEYUP 5
 KEYUP F4
 
-# S
-# Open cockpit menu
+## S
+## Open cockpit menu
 MACRO KEYDOWN s
 KEYDOWN 5
 DELAY 100
@@ -406,8 +406,8 @@ MACRO KEYUP s
 KEYUP 5
 KEYUP F5
 
-# A
-# Open navigation menu
+## A
+## Open navigation menu
 MACRO KEYDOWN a
 KEYDOWN 5
 DELAY 100
@@ -416,36 +416,36 @@ MACRO KEYUP a
 KEYUP 5
 KEYUP F6
 
-#-------------------------------------------------
-# Voice command triggers
-#-------------------------------------------------
+##-------------------------------------------------
+## Voice command triggers
+##-------------------------------------------------
 
 # TODO Mining (toggle hardpoints and analysis mode?)
 # TODO Target biggest threat
 
-# E
-# Engage FSD drive
+## E
+## Engage FSD drive
 MACRO KEYDOWN e
 JBUTTONDOWN 11
 DELAY 150
 JBUTTONUP 11
 
-# F
-# Landing gear
+## F
+## Landing gear
 MACRO KEYDOWN f
 JBUTTONDOWN 5
 DELAY 150
 JBUTTONUP 5
 
-# T
-# Toggle hardpoints
+## T
+## Toggle hardpoints
 MACRO KEYDOWN t
 JBUTTONDOWN 4
 DELAY 150
 JBUTTONUP 4
 
-# R
-# Lift off landing pad
+## R
+## Lift off landing pad
 MACRO KEYDOWN r
 JAXIS 0 -32768
 DELAY 5000
@@ -460,8 +460,8 @@ JBUTTONDOWN 20
 DELAY 150
 JBUTTONUP 20
 
-# Q
-# Request docking permissions
+## Q
+## Request docking permissions
 MACRO KEYDOWN q
 # Open navigation panel
 KEYDOWN a

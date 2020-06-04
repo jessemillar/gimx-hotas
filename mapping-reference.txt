@@ -1,144 +1,131 @@
-##################################################
-# Stick buttons (triggers/hats and their shifts)
-##################################################
-# D-pad Up
-#
-# D-pad Right
-#
-# D-pad Down
-#
-# D-pad Left
-#
-#-------------------------------------------------
-# Navigation mode
-#-------------------------------------------------
-#- - - - - - - - - - - - - - - - - - - - - - - - -
-# Regular
-# Combos prefixed by Northwest touchpad in game
-#- - - - - - - - - - - - - - - - - - - - - - - - -
-# Trigger
-# Cross
-# Secondary fire
-#
-#- - - - - - - - - - - - - - - - - - - - - - - - -
-# Pinky shift
-# Combos prefixed by Southwest touchpad in game
-#- - - - - - - - - - - - - - - - - - - - - - - - -
-# Trigger
-#
-# Secondary fire
-#
-# D-pad Up
-#
-# D-pad Right
-#
-# D-pad Down
-#
-# D-pad Left
-#
-#-------------------------------------------------
-# Combat mode
-#-------------------------------------------------
-#- - - - - - - - - - - - - - - - - - - - - - - - -
-# Regular
-# Combos prefixed by Northeast touchpad in game
-#- - - - - - - - - - - - - - - - - - - - - - - - -
-# Trigger
-#
-# Secondary fire
-#
-#- - - - - - - - - - - - - - - - - - - - - - - - -
-# Pinky shift
-# Combos prefixed by Southeast touchpad in game
-#- - - - - - - - - - - - - - - - - - - - - - - - -
-# Trigger
-#
-# Secondary fire
-#
-# D-pad Up
-#
-# D-pad Right
-#
-# D-pad Down
-#
-# D-pad Left
-#
-##################################################
-# Base buttons
-##################################################
-#-------------------------------------------------
-# Column 1 (docking)
-# Combos prefixed by Square in game
-#-------------------------------------------------
-# A1
-#
-# B1
-# Toggle landing gear
-# C1
-#
-#-------------------------------------------------
-# Column 2 (cockpit modes)
-# Combos prefixed by Triangle in game
-#-------------------------------------------------
-# A2
-# Open discovery
-# B2
-# Switch cockpit mode
-# C2
-# Enter FSS mode
-#-------------------------------------------------
-# Column 3 (mining/exploration)
-# Combos prefixed by Circle in game
-#-------------------------------------------------
-# A3
-# Toggle hardpoints
-# B3
-# Toggle night vision
-# C3
-# Toggle cargo scoop
-#-------------------------------------------------
-# Miscellaneous buttons
-# Combos prefixed by L1 in game
-#-------------------------------------------------
-# Flap A (closest to throttle)
-# Boost
-# Flap B
-# Thrust reverse toggle
-# Start
-# FSD Drive
-# Eject
-# Options
-##################################################
-# Voice commands/keyboard controls
-# Combos prefixed by R1 in game
-##################################################
-# W
-# Open communication menu
-# D
-# Open ship menu
-# S
-# Open cockpit menu
-# A
-# Open navigation menu
-# TODO Fix these to use the new button mappings
-#
-# Engage supercruise drive
-# MACRO JBUTTONDOWN v
-# JBUTTONDOWN i
-# DELAY 80
-# JBUTTONDOWN DOWN
-# DELAY 80
-# JBUTTONUP i
-# JBUTTONUP DOWN
-#
-# Lift off landing pad
-# MACRO JBUTTONDOWN b
-# JBUTTONDOWN s
-# DELAY 8000
-# JBUTTONUP s
-# Use the landing gear macro to raise the landing gear
-# JBUTTON x
-# Engage normal flight controls
-# JBUTTON u
-# Q
-# Request docking permissions
+###################################################
+## Stick buttons (triggers/hats and their shifts)
+###################################################
+## Hat Up
+## D-pad Up
+## Hat Right
+## D-pad right
+## Hat Down
+## D-pad Down
+## Hat Left
+## D-pad Left
+##-------------------------------------------------
+## Navigation mode
+##-------------------------------------------------
+##- - - - - - - - - - - - - - - - - - - - - - - - -
+## Regular
+## Combos prefixed by Northwest touchpad in game
+##- - - - - - - - - - - - - - - - - - - - - - - - -
+## Trigger
+## Cross
+## Secondary fire
+##- - - - - - - - - - - - - - - - - - - - - - - - -
+## Pinky shift
+## Combos prefixed by Southwest touchpad in game
+##- - - - - - - - - - - - - - - - - - - - - - - - -
+## Trigger
+## Secondary fire
+## Hat Up
+## D-pad Up
+## Hat Right
+## D-pad Right
+## Hat Down
+## D-pad Down
+## Hat Left
+## D-pad Left
+##-------------------------------------------------
+## Combat mode
+##-------------------------------------------------
+##- - - - - - - - - - - - - - - - - - - - - - - - -
+## Regular
+## Combos prefixed by Northeast touchpad in game
+##- - - - - - - - - - - - - - - - - - - - - - - - -
+## Trigger
+## Secondary fire
+##- - - - - - - - - - - - - - - - - - - - - - - - -
+## Pinky shift
+## Combos prefixed by Southeast touchpad in game
+##- - - - - - - - - - - - - - - - - - - - - - - - -
+## Trigger
+## Secondary fire
+## Hat Up
+## D-pad Up
+## Hat Right
+## D-pad Right
+## Hat Down
+## D-pad Down
+## Hat Left
+## D-pad Left
+###################################################
+## Base buttons
+###################################################
+##-------------------------------------------------
+## Column 1 (docking)
+## Combos prefixed by Square in game
+##-------------------------------------------------
+## A1
+##
+## B1
+## Toggle landing gear
+## C1
+##
+##-------------------------------------------------
+## Column 2 (cockpit modes)
+## Combos prefixed by Triangle in game
+##-------------------------------------------------
+## A2
+## Open discovery
+## B2
+## Switch cockpit mode
+## C2
+## Enter FSS mode
+##-------------------------------------------------
+## Column 3 (mining/exploration)
+## Combos prefixed by Circle in game
+##-------------------------------------------------
+## A3
+## Toggle hardpoints
+## B3
+## Toggle night vision
+## C3
+## Toggle cargo scoop
+##-------------------------------------------------
+## Miscellaneous buttons
+## Combos prefixed by L1 in game
+##-------------------------------------------------
+## Flap A (closest to throttle)
+## Boost/Menu tab left
+## Flap B
+## Thrust reverse toggle/Menu tab right
+## Start
+## FSD Drive
+## Eject
+## Options
+###################################################
+## Miscellaneous buttons
+## Combos prefixed by R1 in game
+###################################################
+##-------------------------------------------------
+## Keyboard buttons
+##-------------------------------------------------
+## W
+## Open communication menu
+## D
+## Open ship menu
+## S
+## Open cockpit menu
+## A
+## Open navigation menu
+##-------------------------------------------------
+## Voice command triggers
+##-------------------------------------------------
+## E
+## Engage FSD drive
+## F
+## Landing gear
+## T
+## Toggle hardpoints
+## R
+## Lift off landing pad
+## Q
+## Request docking permissions
