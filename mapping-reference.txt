@@ -19,6 +19,7 @@
 ## Trigger
 ## Cross
 ## Secondary fire
+## Circle
 ##- - - - - - - - - - - - - - - - - - - - - - - - -
 ## Pinky shift
 ## Combos prefixed by Southwest touchpad in game
@@ -107,6 +108,7 @@
 ###################################################
 ##-------------------------------------------------
 ## Keyboard buttons
+## Note: Manually delay >200 if used in macro
 ##-------------------------------------------------
 ## W
 ## Open communication menu

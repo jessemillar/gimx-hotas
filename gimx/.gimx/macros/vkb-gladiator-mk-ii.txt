@@ -129,21 +129,26 @@ KEYUP F6
 
 ##- - - - - - - - - - - - - - - - - - - - - - - - -
 ## Regular
+## Combos prefixed by Northeast touchpad in game
 ##- - - - - - - - - - - - - - - - - - - - - - - - -
 
 ## Trigger
-## Triangle
 MACRO JBUTTONDOWN 13
-KEYDOWN 2
+KEYDOWN F7
+DELAY 100
+KEYDOWN 7
 MACRO JBUTTONUP 13
-KEYUP 2
+KEYUP F7
+KEYUP 7
 
 ## Secondary fire
-## Square
 MACRO JBUTTONDOWN 17
-KEYDOWN 3
+KEYDOWN F7
+DELAY 100
+KEYDOWN 6
 MACRO JBUTTONUP 17
-KEYUP 3
+KEYUP F7
+KEYUP 6
 
 ##- - - - - - - - - - - - - - - - - - - - - - - - -
 ## Pinky shift
@@ -416,6 +421,7 @@ KEYUP F6
 
 # TODO Mining (toggle hardpoints and analysis mode?)
 # TODO Target biggest threat
+# TODO Rerouting power
 
 ## E
 ## Engage FSD drive
