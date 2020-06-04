@@ -59,17 +59,21 @@ var batteryStates = []string{"charging", "battery ok", "battery low", "battery c
 
 func recognizedHandler(event speech.SpeechRecognitionEventArgs) {
 	defer event.Close()
-	fmt.Println("Recognized:", event.Result.Text)
-	for k, v := range keywordConfig {
-		if strings.Contains(strings.ToLower(event.Result.Text), k) {
-			fmt.Println("Executing:", k)
-			pressKey(v)
-			bb8Flash("success")
-			return
+	if len(event.Result.Text) > 0 {
+		fmt.Println("Recognized:", event.Result.Text)
+		for k, v := range keywordConfig {
+			if strings.Contains(strings.ToLower(event.Result.Text), k) {
+				fmt.Println("Executing:", k)
+				pressKey(v)
+				go bb8Move()
+				go bb8Flash("success")
+				return
+			}
 		}
+
+		bb8Flash("error")
 	}
 
-	bb8Flash("error")
 	return
 }
 
@@ -92,16 +96,20 @@ func pressKey(key int) {
 func bb8Work() {
 	gobot.Every(time.Second*30, func() {
 		bb8Conn.GetPowerState(func(powerState ollie.PowerStatePacket) {
-			fmt.Println("Battery: " + batteryStates[powerState.PowerState-1])
+			fmt.Println("BB-8 Battery: " + batteryStates[powerState.PowerState-1])
 
 			if powerState.PowerState-1 < 2 {
-				angle := uint16(gobot.Rand(200))
-				bb8Conn.Roll(1, angle)
-				time.Sleep(time.Second)
-				bb8Conn.Roll(0, angle)
+				bb8Move()
 			}
 		})
 	})
+}
+
+func bb8Move() {
+	angle := uint16(gobot.Rand(360))
+	bb8Conn.Roll(1, angle)
+	time.Sleep(time.Second)
+	bb8Conn.Roll(0, angle)
 }
 
 func bb8Flash(flashType string) {
