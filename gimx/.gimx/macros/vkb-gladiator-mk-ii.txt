@@ -1,3 +1,9 @@
+#- - - - - - - - - - - - - - - - - - - - - - - - -
+# Note: The default delay for KEY and JBUTTON is
+#       50 which is not long enough for button
+#       combos which is why I manually DELAY
+#- - - - - - - - - - - - - - - - - - - - - - - - -
+
 ##################################################
 # Stick buttons (triggers/hats and their shifts)
 ##################################################
@@ -43,7 +49,9 @@ KEYUP F6
 # Cross
 MACRO JBUTTONDOWN 15
 # Not a combo because it's PS-level
-KEY 0
+KEYDOWN 0
+MACRO JBUTTONUP 15
+KEYUP 0
 
 # Secondary fire
 MACRO JBUTTONDOWN 19
@@ -355,12 +363,18 @@ KEYUP F3
 # Options
 MACRO JBUTTONDOWN 12
 # Not a combo because it's PS-level
-KEY 9
+KEYDOWN 9
+MACRO JBUTTONUP 12
+KEYUP 9
 
 ##################################################
-# Voice commands/keyboard controls
+# Miscellaneous buttons
 # Combos prefixed by R1 in game
 ##################################################
+
+#-------------------------------------------------
+# Keyboard buttons
+#-------------------------------------------------
 
 # W
 # Open communication menu
@@ -402,46 +416,79 @@ MACRO KEYUP a
 KEYUP 5
 KEYUP F6
 
-# TODO Fix these to use the new button mappings
+#-------------------------------------------------
+# Voice command triggers
+#-------------------------------------------------
 
-#
-# Engage supercruise drive
-# MACRO JBUTTONDOWN v
-# JBUTTONDOWN i
-# DELAY 100
-# JBUTTONDOWN DOWN
-# DELAY 100
-# JBUTTONUP i
-# JBUTTONUP DOWN
+# TODO Mining (toggle hardpoints and analysis mode?)
+# TODO Target biggest threat
 
-#
+# E
+# Engage FSD drive
+MACRO KEYDOWN e
+JBUTTONDOWN 11
+DELAY 150
+JBUTTONUP 11
+
+# F
+# Landing gear
+MACRO KEYDOWN f
+JBUTTONDOWN 5
+DELAY 150
+JBUTTONUP 5
+
+# T
+# Toggle hardpoints
+MACRO KEYDOWN t
+JBUTTONDOWN 4
+DELAY 150
+JBUTTONUP 4
+
+# R
 # Lift off landing pad
-# MACRO JBUTTONDOWN b
-# JBUTTONDOWN s
-# DELAY 8000
-# JBUTTONUP s
+MACRO KEYDOWN r
+JAXIS 0 -32768
+DELAY 5000
+JAXIS 0 0
 # Use the landing gear macro to raise the landing gear
-# JBUTTON x
+KEYDOWN f
+DELAY 150
+KEYUP f
+DELAY 150
 # Engage normal flight controls
-# JBUTTON u
+JBUTTONDOWN 20
+DELAY 150
+JBUTTONUP 20
 
 # Q
 # Request docking permissions
 MACRO KEYDOWN q
 # Open navigation panel
-KEY a
+KEYDOWN a
+DELAY 150
+KEYUP a
 DELAY 1000
 # Tab right
-JBUTTON 1
-DELAY 200
+JBUTTONDOWN 1
+DELAY 150
+JBUTTONUP 1
+DELAY 150
 # Tab right
-JBUTTON 1
-DELAY 200
+JBUTTONDOWN 1
+DELAY 150
+JBUTTONUP 1
+DELAY 150
 # D-pad right
-JBUTTON 81
-DELAY 200
+JBUTTONDOWN 81
+DELAY 150
+JBUTTONUP 81
+DELAY 150
 # Select
-JBUTTON 15
-DELAY 200
+JBUTTONDOWN 15
+DELAY 150
+JBUTTONUP 15
+DELAY 150
 # Exit menu
-JBUTTON 19
+JBUTTONDOWN 19
+DELAY 150
+JBUTTONUP 19
