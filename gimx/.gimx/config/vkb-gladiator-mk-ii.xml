@@ -144,6 +144,14 @@
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="F9"/>
         </axis>
+        <axis id="rel_axis_5-" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="F7"/>
+        </axis>
+        <axis id="rel_axis_5-" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="F10"/>
+        </axis>
       </axis_map>
       <joystick_corrections_list/>
     </configuration>

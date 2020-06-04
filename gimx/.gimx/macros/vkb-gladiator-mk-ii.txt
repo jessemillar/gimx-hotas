@@ -131,26 +131,21 @@ KEYUP F6
 
 ##- - - - - - - - - - - - - - - - - - - - - - - - -
 ## Regular
-## Combos prefixed by Northeast touchpad in game
 ##- - - - - - - - - - - - - - - - - - - - - - - - -
 
 ## Trigger
+## Triangle
 MACRO JBUTTONDOWN 13
-KEYDOWN F7
-DELAY 100
-KEYDOWN 7
+KEYDOWN 2
 MACRO JBUTTONUP 13
-KEYUP F7
-KEYUP 7
+KEYUP 2
 
 ## Secondary fire
+## Square
 MACRO JBUTTONDOWN 17
-KEYDOWN F7
-DELAY 100
-KEYDOWN 6
+KEYDOWN 3
 MACRO JBUTTONUP 17
-KEYUP F7
-KEYUP 6
+KEYUP 3
 
 ##- - - - - - - - - - - - - - - - - - - - - - - - -
 ## Pinky shift
@@ -447,9 +442,9 @@ JBUTTONUP 4
 ## R
 ## Lift off landing pad
 MACRO KEYDOWN r
-JAXIS 0 -32768
+JAXIS 1 32767
 DELAY 5000
-JAXIS 0 0
+JAXIS 1 0
 # Use the landing gear macro to raise the landing gear
 KEYDOWN f
 DELAY 150
