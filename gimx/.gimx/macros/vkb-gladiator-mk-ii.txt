@@ -336,37 +336,37 @@ KEYUP F1
 
 #-------------------------------------------------
 # Miscellaneous buttons
-# Combos prefixed by Cross in game
+# Combos prefixed by L1 in game
 #-------------------------------------------------
 
 # Flap A (closest to throttle)
 # Boost
 MACRO JBUTTONDOWN 0
-KEYDOWN 0
-DELAY 50
 KEYDOWN 4
+DELAY 50
+KEYDOWN F6
 MACRO JBUTTONUP 0
-KEYUP 0
 KEYUP 4
+KEYUP F6
 
 # Flap B
 # Thrust reverse toggle
 MACRO JBUTTONDOWN 1
-KEYDOWN 0
+KEYDOWN 4
 DELAY 50
-KEYDOWN 5
+KEYDOWN F4
 MACRO JBUTTONUP 1
-KEYUP 0
-KEYUP 5
+KEYUP 4
+KEYUP F4
 
 # Start
 # FSD Drive
 MACRO JBUTTONDOWN 11
-KEYDOWN 0
+KEYDOWN 4
 DELAY 50
 KEYDOWN 2
 MACRO JBUTTONUP 11
-KEYUP 0
+KEYUP 4
 KEYUP 2
 
 # Eject
