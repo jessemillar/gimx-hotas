@@ -91,13 +91,16 @@
 ## C3
 ## Toggle cargo scoop
 ##-------------------------------------------------
+## Flap buttons
+##-------------------------------------------------
+## Flap A (closest to throttle)
+## Triangle/Boost/Menu tab left
+## Flap B
+## Square/Thrust reverse toggle/Menu tab right
+##-------------------------------------------------
 ## Miscellaneous buttons
 ## Combos prefixed by L1 in game
 ##-------------------------------------------------
-## Flap A (closest to throttle)
-## Boost/Menu tab left
-## Flap B
-## Thrust reverse toggle/Menu tab right
 ## Start
 ## FSD Drive
 ## Eject
