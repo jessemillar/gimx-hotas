@@ -102,6 +102,10 @@
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="RETURN"/>
         </button>
+        <button id="abs_axis_0" label="share">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="8"/>
+        </button>
       </button_map>
       <axis_map>
         <axis id="rel_axis_1" label="lstick y">
